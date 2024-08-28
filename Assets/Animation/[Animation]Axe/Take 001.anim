@@ -670,7 +670,7 @@ AnimationClip:
   m_FloatCurves: []
   m_PPtrCurves: []
   m_SampleRate: 30
-  m_WrapMode: 1
+  m_WrapMode: 0
   m_Bounds:
     m_Center: {x: -0.11350685, y: 0.15195048, z: 0.3063128}
     m_Extent: {x: 1.2750945, y: 1.8147861, z: 1.5190613}
@@ -3660,15 +3660,15 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 1.1666666
-    functionName: ChangeTagTo
+  - time: 1.4666667
+    functionName: RestoreIdentyfier
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 2.1666667
-    functionName: ChangeToDefault
+  - time: 1.5666667
+    functionName: ChangeObjectIdentifier
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

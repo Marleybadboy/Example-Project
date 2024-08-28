@@ -29,6 +29,7 @@ namespace HCC.DataBase
         #endregion
 
         #region Properties
+        public ItemIdentifier Identyfier { get => _identifier; set => _identifier = value; }
         #endregion
 
         #region Functions

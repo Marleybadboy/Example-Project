@@ -1,3 +1,4 @@
+using HCC.Structs.Identifiers;
 using Sirenix.OdinInspector;
 using UnityEngine;
 
@@ -12,13 +13,13 @@ namespace HCC.DataBase
         [SerializeField, Range(1, 50)] private int _maxHits = 1;
 
         [BoxGroup("Data")]
-        [SerializeField] private string _interactObjectTag;
+        [SerializeField] private ItemIdentifier _interactObjectIdentifier;
 
         #endregion
 
         #region Properties
         public int MaxHits { get => _maxHits; }
-        public string InteractTag { get => _interactObjectTag; }
+        public string InteractTag { get => _interactObjectIdentifier.ItemIdentyfication; }
         #endregion
 
     }

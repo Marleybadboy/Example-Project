@@ -1,4 +1,5 @@
 
+using UnityEngine.InputSystem;
 
 namespace HCC.Interfaces
 {
@@ -11,13 +12,8 @@ namespace HCC.Interfaces
         #endregion
 
         #region Functions
-
-        // Start is called before the first frame update
-        void Start()
-        {
-
-        }
-
+        public void OnInventory(InputValue action);
+        public void OnPrimaryAction(InputValue action);
         #endregion
 
         #region Methods

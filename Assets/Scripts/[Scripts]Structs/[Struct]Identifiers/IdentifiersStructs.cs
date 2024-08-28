@@ -1,6 +1,7 @@
 using Sirenix.OdinInspector;
 using System;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 namespace HCC.Structs.Identifiers
@@ -38,15 +39,17 @@ namespace HCC.Structs.Identifiers
 
             if (_newIdentifier == string.Empty) { Debug.LogError($"New identifier can not be empty!"); return; }
 
-            if(IdentyfierExist(idItem)) { Debug.Log($"Identyfier Exist! Name of identyfier {_newIdentifier}");  return; }
+            if(IdentyfierExist(idItem, _newIdentifier)) { Debug.Log($"Identyfier Exist! Name of identyfier {_newIdentifier}");  return; }
 
             idItem.ItemIdentifiers.Add(_newIdentifier);
 
+            AssetDatabase.SaveAssets();
+
         }
 
-        private bool IdentyfierExist(ItemID idItem) 
+        private bool IdentyfierExist(ItemID idItem, string id) 
         {
-            return idItem.ItemIdentifiers.Contains(_identifier.ItemIdentyfication);
+            return idItem.ItemIdentifiers.Contains(id);
         }
 
         [BoxGroup("Remove Identifier")]
@@ -60,16 +63,13 @@ namespace HCC.Structs.Identifiers
 
             if (_identifier.ItemIdentyfication == string.Empty) { Debug.LogError($"Identifier is null!"); return; }
 
-            Debug.Log("Invoke" + IdentyfierExist(idItem));
 
-
-            if (IdentyfierExist(idItem)) 
+            if (IdentyfierExist(idItem, _identifier.ItemIdentyfication)) 
             {
-
-                
-
                 idItem.ItemIdentifiers.Remove(_identifier.ItemIdentyfication);
             }
+
+            AssetDatabase.SaveAssets();
 
         }
         #endregion

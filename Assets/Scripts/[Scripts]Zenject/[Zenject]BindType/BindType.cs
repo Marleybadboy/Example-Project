@@ -18,4 +18,20 @@ namespace HCC.Structs.Zenject
             _container.Bind<TParamTargetType>().AsCached().NonLazy();
         }
     }
+
+    [Serializable]
+    public struct MonoFromComponentInHierarchyBind : IBinder 
+    {
+
+        public DiContainer Container { set => _container = value; }
+
+        private DiContainer _container;
+
+        public void InjectBindings<TParamInjectedType, TParamTargetType>(IBinderHolder injectedObject, IBinderHolder injectionTarget)
+        {
+            _container.Bind<TParamInjectedType>().FromComponentInHierarchy(true).AsCached();
+
+            _container.Bind<TParamTargetType>().FromComponentInHierarchy(true).AsCached();
+        }
+    }
 }

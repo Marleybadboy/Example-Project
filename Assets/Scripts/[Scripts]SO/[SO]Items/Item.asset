@@ -17,6 +17,8 @@ MonoBehaviour:
   _itemIcon: {fileID: 0}
   _itemPrefabAddress: 
   _identyfierCreator:
-    _newIdentifier: new 1234
+    _newIdentifier: 
     _identifier:
       _itemIdentyfication: Pickaxe
+  _notIteractableIdentifier:
+    _itemIdentyfication: Not Ineractable

@@ -13,6 +13,8 @@ namespace HCC.Zenject.Installers
         #region Methods
         public override void InstallBindings()
         {
+            if (_bindData.Length >= 0) return;
+
             for(int i =0;  i < _bindData.Length; i++) 
             {
                 _bindData[i].StartBind(Container);
