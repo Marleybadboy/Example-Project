@@ -5,15 +5,19 @@ using Sirenix.OdinInspector;
 using System;
 using Unity.Mathematics;
 using UnityEngine;
+using Zenject;
 
 namespace HCC.Structs.Interactable 
 {
     #region CuttableObject 
 
     [Serializable]
-    public struct CuttableObject : IInteractable
+    public class CuttableObject : IInteractable
     {
         #region Fields
+
+        [Inject]
+        private Inventory _inventory;
 
         [BoxGroup("Cut Data"), HorizontalGroup("Cut Data/Cut Fields"), BoxGroup("Cut Data/Cut Fields/Cut")]
         [SerializeField] private CutData _cutData;
@@ -30,6 +34,7 @@ namespace HCC.Structs.Interactable
         public void OnCollisionEnter(Collision collisionInfo)
         {
             Hit(collisionInfo);
+
         }
 
         public void OnCollisionExit(Collision collisionInfo){}
@@ -42,14 +47,17 @@ namespace HCC.Structs.Interactable
         {
             if (HitByCutObject(collisionInfo)) 
             {
-                Debug.Log("HITT");
+                bool inv = _inventory != null;
 
+                Debug.Log("HITT" + _currentHits + " inventory is" + inv);
 
                 if (_cutDisable) return;
                 
                 _cutDisable = true;
                 
                 _currentHits++;
+
+                Debug.Log("HITT" + _currentHits);
 
                 if (_currentHits >= _cutData.MaxHits) 
                 {
@@ -58,8 +66,6 @@ namespace HCC.Structs.Interactable
                     _contact = point.point;
 
                     CutObject();
-
-                    UnityEngine.Object.Destroy(_cutMeshFilter.transform.parent.gameObject);
 
                     return;
                 }
@@ -75,7 +81,24 @@ namespace HCC.Structs.Interactable
             Cutter cutter = new Cutter(_cutMeshFilter,_cutData,_cutMeshFilter.transform.parent, _contact);
 
             cutter.Slice();
-        
+
+            MoveSlicedObject(cutter.UpperHull);
+
+            _inventory.AddMulipleItem(_cutData.ItemValue, _cutData.ItemToAdd);
+
+            UnityEngine.Object.Destroy(_cutMeshFilter.transform.parent.gameObject);
+        }
+
+        private void MoveSlicedObject(GameObject upperObject) 
+        {
+            if (upperObject.GetComponent<Rigidbody>() != null) return;
+
+            Rigidbody rigd = upperObject.AddComponent<Rigidbody>();
+
+            rigd.mass = _cutData.NewObjectMass;
+
+            rigd.AddForceAtPosition(upperObject.transform.position, _cutData.ForcePush);
+     
         }
 
         private bool HitByCutObject(Collision collisionInfo) 
@@ -95,6 +118,23 @@ namespace HCC.Structs.Interactable
         { 
             _cutDisable = false;
         }
+
+        public void AssignValue<T>(T value)
+        {
+            if (value is not Inventory inv) return;
+
+            _inventory = inv;
+        }
+
+        #region Factory
+
+        public class Factory : PlaceholderFactory<CuttableObject> 
+        { 
+            
+        
+        }
+
+        #endregion
     }
 
     #endregion
@@ -107,8 +147,16 @@ namespace HCC.Structs.Interactable
         private Transform _parent;
         private float3 _contactPoint;
 
+        private GameObject _upperHull;
+        private GameObject _lowertHull;
+
         public delegate void OnCompleteSliceDelegete(GameObject upperPart, GameObject lowerPart);
         public OnCompleteSliceDelegete _onComplete;
+
+        #region Properties
+        public GameObject LowerHull { get => _lowertHull; }
+        public GameObject UpperHull { get => _upperHull; }
+        #endregion
 
         public Cutter(MeshFilter filter, CutData data, Transform parent, float3 contactPoint, OnCompleteSliceDelegete completeCallback) 
         { 
@@ -117,6 +165,9 @@ namespace HCC.Structs.Interactable
             _parent = parent;
             _contactPoint = contactPoint;
             _onComplete = completeCallback;
+
+            _upperHull = null;
+            _lowertHull = null;
         }
 
         public Cutter(MeshFilter filter, CutData data, Transform parent, float3 contactPoint)
@@ -126,6 +177,9 @@ namespace HCC.Structs.Interactable
             _parent = parent;
             _contactPoint = contactPoint;
             _onComplete = null;
+
+            _upperHull = null;
+            _lowertHull = null;
         }
 
         public void Slice() 
@@ -140,10 +194,20 @@ namespace HCC.Structs.Interactable
             upperhull.transform.position = _parent.position;
             lowerHull.transform.position = _parent.position;
 
+            upperhull.layer = LayerMask.NameToLayer("Not Interactable");
+            lowerHull.layer = LayerMask.NameToLayer("Terrain");
+
             var upCollider = upperhull.AddComponent<CapsuleCollider>();
+            var downCollider = lowerHull.AddComponent<BoxCollider>();
+
             var obCollider = _filter.gameObject.GetComponent<CapsuleCollider>();
 
             upCollider.radius = obCollider.radius;
+            upCollider.center = new float3(0.05f, 5f, -0.04f);
+           
+
+            _upperHull = upperhull;
+            _lowertHull = lowerHull;
 
             if (_onComplete == null) return;
 

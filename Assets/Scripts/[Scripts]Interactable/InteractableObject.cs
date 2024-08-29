@@ -1,6 +1,8 @@
 using HCC.Interfaces;
 using Sirenix.OdinInspector;
+using System;
 using UnityEngine;
+using Zenject;
 
 namespace HCC.Interactable
 {
@@ -12,12 +14,19 @@ namespace HCC.Interactable
         [BoxGroup("Interaction")]
         [SerializeReference] private IInteractable _interactableType;
 
+        [SerializeField] private SceneContext _sceneContext;
+
         #endregion
 
         #region Properties
         #endregion
 
         #region Functions
+        private void Start () 
+        {
+            InstallInteractable();
+
+        }
         private void OnTriggerEnter(Collider other)
         {
             _interactableType.OnTriggerEnter(other);
@@ -41,6 +50,17 @@ namespace HCC.Interactable
         #endregion
 
         #region Methods
+        private void InstallInteractable()
+        {
+            Type run = _interactableType.GetType();
+
+            _sceneContext.Container.Bind(run).FromInstance(_interactableType).AsTransient().NonLazy();
+
+            _sceneContext.Container.Inject(_interactableType);
+
+        }
+
+        
         #endregion
     }
 }

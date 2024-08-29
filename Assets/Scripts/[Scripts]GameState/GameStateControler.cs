@@ -35,11 +35,12 @@ namespace HCC.GameState
 
         public void ChangeState(State state) 
         {
-            if (_statesSettings.Length < 0) return;
 
-            for(int i = 0;  i < _statesSettings.Length; i++) 
+            if (_statesSettings.Length <= 0) return;
+
+            for (int i = 0;  i < _statesSettings.Length; i++) 
             { 
-                if(_statesSettings[i] == state) 
+                if(_statesSettings[i].GetType() == state.GetType()) 
                 {
                      CheckState(_statesSettings[i]);
 
@@ -50,6 +51,17 @@ namespace HCC.GameState
             
             }
         
+        }
+
+        public void BackToPrevious() 
+        {
+            Debug.Log(_previousState);
+
+            if (_currentState is DefaultState || _previousState == null) return;
+
+            _currentState.ResetState();
+
+            ChangeState(_previousState);
         }
 
         private void CheckState(State state) 
@@ -67,9 +79,9 @@ namespace HCC.GameState
             _currentState = state;
         }
 
-        private State GetState(State state) 
+        public State GetState(State state) 
         { 
-            return Array.Find(_statesSettings, s => s.Equals(state));
+            return Array.Find(_statesSettings, s => s.GetType() == state.GetType());
         }
 
         public bool InvetoryExist() 

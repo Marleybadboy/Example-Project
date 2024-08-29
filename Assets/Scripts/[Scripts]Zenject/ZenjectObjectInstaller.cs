@@ -1,3 +1,5 @@
+
+using HCC.GUI;
 using HCC.Structs.Zenject;
 using Sirenix.OdinInspector;
 using UnityEngine;
@@ -13,6 +15,22 @@ namespace HCC.Zenject.Installers
         #region Methods
         public override void InstallBindings()
         {
+            Container.Bind<NotificationManager>().AsSingle();
+
+            Container.Bind<NotificationHolder>().FromComponentInHierarchy(true).AsCached();
+
+            //Container.BindInstance(new InventoryManager()).NonLazy();
+
+            Container.Bind<InventoryHolder>().FromComponentInHierarchy(true).AsCached();
+
+            Container.Bind<IInitializable>().To<HolderNotificationInitializator<NotificationManager>>().AsSingle().NonLazy();
+
+            Container.Bind<IInitializable>().To<HolderInventoryInitializator<InventoryManager>>().AsSingle().NonLazy();
+
+            Debug.Log(Container.HasBinding<NotificationHolder>());
+
+
+
             if (_bindData.Length >= 0) return;
 
             for(int i =0;  i < _bindData.Length; i++) 

@@ -1,4 +1,5 @@
-using HCC.GameState;
+
+using HCC.GUI;
 using UnityEngine;
 using Zenject;
 
@@ -26,16 +27,22 @@ namespace HCC.GameState
         #region Methods
         public override void BindState(DiContainer container) { }
 
-        public override void AssignValue<T>(T value)
+        public override void AssignValue(object value)
+        {
+        }
+
+        public override void ResetState()
         {
         }
         #endregion
     }
 
-    public class InventoryState: State 
+    public class InventoryState : State 
     {
-      
+
         #region Fields
+        [Inject]
+        private InventoryManager _inventoryManager;
         #endregion
 
         #region Properties
@@ -45,10 +52,31 @@ namespace HCC.GameState
         #endregion
 
         #region Methods
-        public override void BindState(DiContainer container) { }
-        public override void AssignValue<T>(T value)
+        public override void ExecuteState()
         {
-            
+            base.ExecuteState();
+
+            _inventoryManager.OpenUI();
+
+            Cursor.visible = true;
+
+            Cursor.lockState = CursorLockMode.None;   
+
+        }
+        public override void BindState(DiContainer container) { }
+        
+        public override void AssignValue(object value)
+        {
+            _inventoryManager = (InventoryManager)value;
+        }
+
+        public override void ResetState()
+        {
+            _inventoryManager.CloseUI();
+
+            Cursor.visible = false;
+
+            Cursor.lockState = CursorLockMode.Locked;
         }
         #endregion
 
@@ -67,6 +95,7 @@ namespace HCC.GameState
 
         public void Initialize()
         {
+            Debug.Log("!@##!@");
             _binderState.AssignValue(_bindValue);
         }
     }

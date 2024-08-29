@@ -1,3 +1,4 @@
+using HCC.GUI;
 using HCC.Interactable;
 using HCC.Interfaces;
 using Sirenix.OdinInspector;
@@ -71,5 +72,26 @@ namespace HCC.Structs.Zenject
         public MonoBehaviour Value => _value;
 
         public object BindValue => _value;
+    }
+
+    [Serializable]
+    public struct GUIManagerHolder : IDepencyHolder<GUIManager>, IBinderHolder
+    {
+        [SerializeReference] private GUIManager _value;
+        
+        public object BindValue => _value;
+
+        GUIManager IDepencyHolder<GUIManager>.Value => _value;
+    }
+
+    [Serializable]
+    public struct GUIHolderBinder : IDepencyHolder<NotificationHolder>, IBinderHolder
+    {
+        [SerializeField] private NotificationHolder _value;
+
+        public object BindValue => _value;
+
+        public NotificationHolder Value => _value;
+
     }
 }

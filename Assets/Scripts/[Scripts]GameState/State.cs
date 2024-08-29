@@ -1,5 +1,4 @@
 using System;
-using System.ComponentModel;
 using UnityEngine;
 using Zenject;
 
@@ -24,8 +23,9 @@ namespace HCC.GameState
             _controlInput.Execute();
         }
 
+        public abstract void ResetState();
         public abstract void BindState(DiContainer container);
-        public abstract void AssignValue<T>(T value);
+        public abstract void AssignValue(object value);
         #endregion
     }
 }

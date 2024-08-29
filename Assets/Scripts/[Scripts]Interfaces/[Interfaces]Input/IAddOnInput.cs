@@ -14,6 +14,7 @@ namespace HCC.Interfaces
         #region Functions
         public void OnInventory(InputValue action);
         public void OnPrimaryAction(InputValue action);
+        public void OnEscapeAction(InputValue action);
         #endregion
 
         #region Methods

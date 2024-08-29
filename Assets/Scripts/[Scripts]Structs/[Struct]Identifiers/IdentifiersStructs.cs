@@ -43,7 +43,11 @@ namespace HCC.Structs.Identifiers
 
             idItem.ItemIdentifiers.Add(_newIdentifier);
 
+            EditorUtility.SetDirty(idItem);
+
             AssetDatabase.SaveAssets();
+
+            AssetDatabase.Refresh();
 
         }
 

@@ -30,6 +30,7 @@ namespace HCC.DataBase
 
         #region Properties
         public ItemIdentifier Identyfier { get => _identifier; set => _identifier = value; }
+        public Sprite ItemIcon { get => _itemIcon; }
         #endregion
 
         #region Functions

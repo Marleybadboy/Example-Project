@@ -12,12 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21a90a9c8b4564d47b0997e90d966e7d, type: 3}
   m_Name: TreeCutData
   m_EditorClassIdentifier: 
-  _maxHits: 6
+  _maxHits: 3
   _interactObjectIdentifier:
     _itemIdentyfication: Axe
-  _hitDelay: 1.11
+  _itemToAdd: {fileID: 11400000, guid: 515616da1e10f4b4fa2148d59798d807, type: 2}
+  _minMaxValueToAdd: {x: 1, y: 3}
+  _hitDelay: 0.25
   _forcePush:
-    x: 0
-    y: 0
+    x: 2
+    y: 10
     z: 0
+  _newObjectMass: 500
   _afterCutMaterial: {fileID: 0}

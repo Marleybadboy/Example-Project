@@ -11,6 +11,7 @@ namespace HCC.Player
     public class Player : MonoBehaviour, IAddOnInput
     {
         #region Fields
+
         [BoxGroup("Interaction")]
         [SerializeField] private Transform _holdPoint;
 
@@ -18,19 +19,13 @@ namespace HCC.Player
         private Inventory _inventory;
         [Inject]
         private GameStateControler _gameState;
+
         #endregion
 
         #region Properties
         #endregion
 
         #region Functions
-
-        // Start is called before the first frame update
-        void Start()
-        {
-
-        }
-
         #endregion
 
         #region Methods
@@ -44,7 +39,9 @@ namespace HCC.Player
 
         public void OnInventory(InputValue action)
         {
-            throw new System.NotImplementedException();
+            if (!action.isPressed) return;
+
+            _gameState.ChangeState(new InventoryState());
         }
 
         public void OnPrimaryAction(InputValue action)
@@ -62,6 +59,13 @@ namespace HCC.Player
 
             anim.Play();
         
+        }
+
+        public void OnEscapeAction(InputValue action)
+        {
+            if (!action.isPressed) return;
+
+            _gameState.BackToPrevious();
         }
         #endregion
     }

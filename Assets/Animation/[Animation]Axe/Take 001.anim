@@ -3667,7 +3667,7 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 1.5666667
+  - time: 1.8
     functionName: ChangeObjectIdentifier
     data: 
     objectReferenceParameter: {fileID: 0}
