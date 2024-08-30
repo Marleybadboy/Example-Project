@@ -134,6 +134,10 @@ Wywołanie notyfikacji zostało przypisane do Eventu statyczne na potrzeba wywo�
 ```
 
 
+<p align="center">
+  <img src="Readme_Files/Z5rWBP1EuN.png" alt="Main Menu" width="500"/>
+</p>
+
 
 
 
