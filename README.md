@@ -26,8 +26,52 @@ _controlInput: Obiekt typu InputControl, który jest serializowany do Unity i ko
 
 > [!NOTE]
 > Wszystkie klasy używają frameworka Zenject do wstrzykiwania zależności i zarządzania inicjalizacją. BindState, AssignValue oraz klasy pomocnicze jak ControleInjection używają Zenject do integracji stanu gry i innych komponentów.
- #### Baza danych stanów
 
+ #### Baza danych stanów
 <p align="center">
   <img src="Readme_Files/Unity_vriC9n1rnn.png" alt="Main Menu" width="300"/>
 </p>
+
+W każdym stanie można edytować Input. Wyłącznie oraz włączanie. Aby uniknąć wywoływanie niechcianych funkcji.
+
+### Zbieranie Przedmiotów i Zasobów
+
+Gracz zbiera zasoby przez interakje z otoczeniem. Każde drzewo może być ścięte i jest oparte na generycznym cięciu mesha. Używając myszki można ściać każdy obiekt.
+
+```csharp
+
+        private void CutObject()
+        {
+            Cutter cutter = new Cutter(_cutMeshFilter, _cutData, _cutMeshFilter.transform.parent, _contact);
+
+            cutter.Slice();
+
+            MoveSlicedObject(cutter.UpperHull);
+
+            _inventory.AddMulipleItem(_cutData.ItemValue, _cutData.ItemToAdd);
+
+            UnityEngine.Object.Destroy(_cutMeshFilter.transform.parent.gameObject);
+        }
+
+```
+
+Wszystkie elementy interakcji są dodawane poprzez interfejs IInteractable. Component InteractableObject służy do przetrzymywania rodzaju interakcji:
+
+```csharp
+public class InteractableObject : MonoBehaviour
+    {
+        #region Fields
+
+        [BoxGroup("Interaction")]
+        [SerializeReference] private IInteractable _interactableType;
+
+        [SerializeField] private SceneContext _sceneContext;
+
+        #endregion
+
+        #region Properties
+        public IInteractable interactableType { get => _interactableType; }
+        #endregion
+        }
+
+```
