@@ -75,3 +75,31 @@ public class InteractableObject : MonoBehaviour
         }
 
 ```
+
+
+### Crafitng
+Crafting został oparty na ScriptableObject każdy przedmiot może zostać utworzony generycznie i no-code. 
+System sprawdza czy dodane przedmioty do slotów mogą zostać wytworzone. Dodatkowo istnieje możliwość skalowania system czyli:
+* Dodwania większej ilości slotów na przedmioty
+* Dodwanie róznych przedmiotów do recept
+
+> [!NOTE]
+> W prefabie Crafting_Panel jest możliwości dodania Failure Callback w postaci UnityEvent. Można bez problemowo dodać wywołanie bez codowania
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
