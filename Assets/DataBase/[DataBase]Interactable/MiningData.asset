@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp:HCC.DataBase:MiningData
   _maxHits: 1
   _interactObjectIdentifier:
-    _itemIdentyfication: 
+    _itemIdentyfication: Pickaxe
   _itemToAdd: {fileID: 0}
   _minMaxValueToAdd: {x: 1, y: 2}
   _hitDelay: 0.5

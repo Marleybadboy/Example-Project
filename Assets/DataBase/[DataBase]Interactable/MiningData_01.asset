@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 445a737ac0e30f7459a8dcb4e0b3d19d, type: 3}
+  m_Name: MiningData_01
+  m_EditorClassIdentifier: 
+  _maxHits: 1
+  _interactObjectIdentifier:
+    _itemIdentyfication: Pickaxe
+  _itemToAdd: {fileID: 11400000, guid: 1b90a87ab0c64af48946cce237cc003f, type: 2}
+  _minMaxValueToAdd: {x: 1, y: 3}
+  _hitDelay: 0.36
