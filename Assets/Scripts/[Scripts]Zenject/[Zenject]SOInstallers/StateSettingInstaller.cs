@@ -14,19 +14,55 @@ public class StateSettingInstaller : ScriptableObjectInstaller<StateSettingInsta
         
         Container.Bind<GameStateControler>().FromInstance(_gameStateSettings).AsSingle();
 
-        //Container.BindInstance(new InventoryManager()).NonLazy();
+        Container.Bind<UsefullHolder>().FromComponentInHierarchy(true).AsSingle();
+
+        BindCrafting();
+
         Container.Bind<InventoryManager>().AsSingle().NonLazy();
 
         Container.Bind<InventoryState>().FromInstance((InventoryState)_gameStateSettings.GetState(new InventoryState()));
 
         Container.Inject((InventoryState)_gameStateSettings.GetState(new InventoryState()));
 
-        //Container.Bind<IInitializable>().To<InitializeStateBinder<InventoryState, InventoryManager>>().AsSingle().Lazy();
-        
+
         Container.Bind<IInitializable>().To<ControleInjection>().AsSingle().NonLazy();
 
-        Debug.Log($"jest {nameof(Inventory)}: {Container.HasBinding<Inventory>()}");
+        Container.Bind<IInitializable>().To<CraftingManagerInitializator>().AsSingle().NonLazy();
+
+        Debug.Log($"jest {nameof(CraftingManager)}: {Container.HasBinding<CraftingManager>()}");
 
 
+    }
+
+    private void BindCrafting() 
+    {
+
+        Container.Bind<CraftingManager>().AsSingle().NonLazy();
+
+        Container.Bind<CraftingHolder>().FromComponentInHierarchy(true).AsCached();
+
+        Container.Bind<IInitializable>().To<HolderCraftingInitializator<CraftingManager>>().AsSingle().NonLazy();
+
+    }
+
+
+
+ 
+}
+
+public class CraftingManagerInitializator : IInitializable
+{
+    private readonly CraftingManager _craftingManager;
+    private readonly InventoryManager _inventoryManager;
+
+    public CraftingManagerInitializator(CraftingManager craftingManager, InventoryManager inventoryManager)
+    {
+        _craftingManager = craftingManager;
+        _inventoryManager = inventoryManager;
+    }
+
+    public void Initialize()
+    {
+        _craftingManager.AssignInventory(_inventoryManager);
     }
 }

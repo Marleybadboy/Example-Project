@@ -3,18 +3,20 @@ using HCC.StaticEvents;
 using Sirenix.OdinInspector;
 using System.Collections.Generic;
 using UnityEngine;
+using Zenject;
 
-
-
-    public class Inventory : MonoBehaviour
+public class Inventory : MonoBehaviour
     {
-    #region Fields
+         #region Fields
           
          [Title("Inventory", TitleAlignment = TitleAlignments.Centered, HorizontalLine = true)]
          [BoxGroup("Items")]
          [SerializeField] private List<Item> _items = new();
 
-        private const string _message = "New Item Added!";
+            private const string _message = "New Item Added!";
+
+         [Inject]
+         private UsefullHolder _usefullHolder;
         #endregion
 
         #region Properties
@@ -61,6 +63,16 @@ using UnityEngine;
         public void RemoveItem(Item item)
         {
             _items.Remove(item);
+        }
+        
+        public void Drop(Item item) 
+        { 
+            GameObject obj = Instantiate(item.ItemPrefab);
+            
+            obj.transform.position = _usefullHolder.transform.position;
+            
+            _items.Remove(item);
+        
         }
 
         #endregion

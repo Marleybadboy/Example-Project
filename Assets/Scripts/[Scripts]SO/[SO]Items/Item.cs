@@ -19,7 +19,7 @@ namespace HCC.DataBase
         [SerializeField] private Sprite _itemIcon;
 
         [BoxGroup("Item Data")]
-        [SerializeField] private string _itemPrefabAddress;
+        [SerializeField] private GameObject _itemPrefab;
 
         [Space(5)]
         [BoxGroup("Item ID Creator")]
@@ -31,6 +31,7 @@ namespace HCC.DataBase
         #region Properties
         public ItemIdentifier Identyfier { get => _identifier; set => _identifier = value; }
         public Sprite ItemIcon { get => _itemIcon; }
+        public GameObject ItemPrefab { get => _itemPrefab; }
         #endregion
 
         #region Functions

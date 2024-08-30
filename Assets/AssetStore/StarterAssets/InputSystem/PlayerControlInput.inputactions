@@ -1,5 +1,5 @@
 {
-    "name": "StarterAssets",
+    "name": "PlayerControlInput",
     "maps": [
         {
             "name": "Player",
@@ -63,6 +63,24 @@
                     "name": "EscapeAction",
                     "type": "Button",
                     "id": "c495e2c6-f215-49e2-9145-8127d98b7ed5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "NumericAction",
+                    "type": "Button",
+                    "id": "3f7c9518-9408-4f21-9f62-dd036bee65f8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "DropAction",
+                    "type": "Button",
+                    "id": "6a6fc8e8-acf5-4bbf-91c6-de5e4f705335",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -276,6 +294,50 @@
                     "processors": "",
                     "groups": "KeyboardMouse",
                     "action": "EscapeAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c37aa292-177a-4407-9b35-8b00611becd1",
+                    "path": "<Keyboard>/1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardMouse",
+                    "action": "NumericAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b087ee02-aa3e-48a1-a73f-f393ce751178",
+                    "path": "<Keyboard>/2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardMouse",
+                    "action": "NumericAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f6f5b78d-9a9f-4d3e-8d77-0db2d7d28b87",
+                    "path": "<Keyboard>/3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardMouse",
+                    "action": "NumericAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1d929b99-59e8-4abb-abab-1f0fced85bec",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DropAction",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

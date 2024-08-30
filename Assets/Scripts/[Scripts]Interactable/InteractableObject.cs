@@ -19,6 +19,7 @@ namespace HCC.Interactable
         #endregion
 
         #region Properties
+        public IInteractable interactableType { get => _interactableType; }
         #endregion
 
         #region Functions
@@ -53,6 +54,8 @@ namespace HCC.Interactable
         private void InstallInteractable()
         {
             Type run = _interactableType.GetType();
+
+            if(_sceneContext == null) { _sceneContext = FindObjectOfType<SceneContext>(true); }
 
             _sceneContext.Container.Bind(run).FromInstance(_interactableType).AsTransient().NonLazy();
 

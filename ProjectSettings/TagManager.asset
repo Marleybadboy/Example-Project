@@ -7,6 +7,7 @@ TagManager:
   - CinemachineTarget
   - Terrain
   - NotInteractable
+  - Collactable
   layers:
   - Default
   - TransparentFX

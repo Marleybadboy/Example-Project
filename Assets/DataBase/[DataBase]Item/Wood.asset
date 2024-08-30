@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _identifier:
     _itemIdentyfication: Wood
-  _itemIcon: {fileID: 0}
-  _itemPrefabAddress: 
+  _itemIcon: {fileID: 21300000, guid: 369453958dc672b4a99155ab9f00d5df, type: 3}
+  _itemPrefab: {fileID: 941785190359463006, guid: 14a6eb4dc9ba8db4a9677c9351ca67a9,
+    type: 3}
   _identyfierCreator:
     _newIdentifier: Wood
     _identifier:

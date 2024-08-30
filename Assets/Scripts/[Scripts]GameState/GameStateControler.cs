@@ -55,7 +55,7 @@ namespace HCC.GameState
 
         public void BackToPrevious() 
         {
-            Debug.Log(_previousState);
+           
 
             if (_currentState is DefaultState || _previousState == null) return;
 

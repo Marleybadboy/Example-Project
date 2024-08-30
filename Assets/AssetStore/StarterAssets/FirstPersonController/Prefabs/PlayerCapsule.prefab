@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2820258878971339867}
   m_Layer: 0
   m_Name: PlayerCameraRoot
-  m_TagString: CinemachineTarget
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -193,6 +193,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2899766903663793373}
+  - component: {fileID: 3551574243493468592}
   m_Layer: 8
   m_Name: HolderPoint
   m_TagString: Untagged
@@ -216,6 +217,20 @@ Transform:
   - {fileID: 4069908715040743396}
   m_Father: {fileID: 4135013735270702856}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3551574243493468592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7547843620586278657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bf13b6820cb1c04695b8b406dab13d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _usefullItems:
+  - _usefullItem: {fileID: 3688704028276245854}
 --- !u!1 &8616685848737228372
 GameObject:
   m_ObjectHideFlags: 0
@@ -458,6 +473,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _holdPoint: {fileID: 2899766903663793373}
+  _referenceNumeric: {fileID: 6511674795299028382, guid: 4419d82f33d36e848b3ed5af4c8da37e,
+    type: 3}
+  _distanceFinder: 263
 --- !u!1001 &8909266995950582300
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -552,6 +570,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 87670b57dd35bd1489143fdee645acc5, type: 3}
+--- !u!1 &3688704028276245854 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5230082023960067906, guid: 87670b57dd35bd1489143fdee645acc5,
+    type: 3}
+  m_PrefabInstance: {fileID: 8909266995950582300}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4069908715040743396 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4890675311185487352, guid: 87670b57dd35bd1489143fdee645acc5,

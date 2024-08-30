@@ -22,9 +22,34 @@ MonoBehaviour:
       data:
         _statesSettings:
         - rid: 7799672245363146763
+        - rid: 7799672273909317645
     - rid: 7799672245363146763
       type: {class: DefaultState, ns: HCC.GameState, asm: Assembly-CSharp}
       data:
         _controlInput:
-          _enableReference: []
-          _disableReference: []
+          _enableReference:
+          - {fileID: -1916377846673030204, guid: 4419d82f33d36e848b3ed5af4c8da37e, type: 3}
+          - {fileID: -3552364970006637457, guid: 4419d82f33d36e848b3ed5af4c8da37e, type: 3}
+          - {fileID: -3787169064211337688, guid: 4419d82f33d36e848b3ed5af4c8da37e, type: 3}
+          - {fileID: -8750674506638915993, guid: 4419d82f33d36e848b3ed5af4c8da37e, type: 3}
+          - {fileID: 6170180779405304798, guid: 4419d82f33d36e848b3ed5af4c8da37e, type: 3}
+          - {fileID: -3211501403402881669, guid: 4419d82f33d36e848b3ed5af4c8da37e, type: 3}
+          - {fileID: 6511674795299028382, guid: 4419d82f33d36e848b3ed5af4c8da37e, type: 3}
+          _disableReference:
+          - {fileID: -5223655697304361510, guid: 4419d82f33d36e848b3ed5af4c8da37e, type: 3}
+          - {fileID: -5221582931769398223, guid: 4419d82f33d36e848b3ed5af4c8da37e, type: 3}
+    - rid: 7799672273909317645
+      type: {class: InventoryState, ns: HCC.GameState, asm: Assembly-CSharp}
+      data:
+        _controlInput:
+          _enableReference:
+          - {fileID: -5223655697304361510, guid: 4419d82f33d36e848b3ed5af4c8da37e, type: 3}
+          - {fileID: -5221582931769398223, guid: 4419d82f33d36e848b3ed5af4c8da37e, type: 3}
+          _disableReference:
+          - {fileID: -1916377846673030204, guid: 4419d82f33d36e848b3ed5af4c8da37e, type: 3}
+          - {fileID: -3552364970006637457, guid: 4419d82f33d36e848b3ed5af4c8da37e, type: 3}
+          - {fileID: -3787169064211337688, guid: 4419d82f33d36e848b3ed5af4c8da37e, type: 3}
+          - {fileID: -8750674506638915993, guid: 4419d82f33d36e848b3ed5af4c8da37e, type: 3}
+          - {fileID: 6170180779405304798, guid: 4419d82f33d36e848b3ed5af4c8da37e, type: 3}
+          - {fileID: -3211501403402881669, guid: 4419d82f33d36e848b3ed5af4c8da37e, type: 3}
+          - {fileID: 6511674795299028382, guid: 4419d82f33d36e848b3ed5af4c8da37e, type: 3}

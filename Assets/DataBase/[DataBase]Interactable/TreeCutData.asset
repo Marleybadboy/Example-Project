@@ -16,7 +16,7 @@ MonoBehaviour:
   _interactObjectIdentifier:
     _itemIdentyfication: Axe
   _itemToAdd: {fileID: 11400000, guid: 515616da1e10f4b4fa2148d59798d807, type: 2}
-  _minMaxValueToAdd: {x: 1, y: 3}
+  _minMaxValueToAdd: {x: 2, y: 3}
   _hitDelay: 0.25
   _forcePush:
     x: 2

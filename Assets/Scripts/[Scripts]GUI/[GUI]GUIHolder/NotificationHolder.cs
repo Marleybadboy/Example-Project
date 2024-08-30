@@ -15,19 +15,17 @@ public class NotificationHolder : GUIHolder<NotificationManager,Notification>
     public override void Start()
     {
         Manager.SetData(DataParam);
+
         StaticEvents.OnItemCollected += Manager.ShowNotification;
+        StaticEvents.OnShowMassege += Manager.ShowNotification;
     }
     private void OnDestroy()
     {
         StaticEvents.OnItemCollected -= Manager.ShowNotification;
+        StaticEvents.OnShowMassege -= Manager.ShowNotification;
     }
     #endregion
 
     #region Methods
-    [Button("Show",ButtonSizes.Large)]
-    private void Show() 
-    {
-        StaticEvents.ExecuteItemCollected("Kurwa jesttttt!!!");
-    }
     #endregion 
 }

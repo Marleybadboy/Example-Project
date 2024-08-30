@@ -993,7 +993,6 @@ GameObject:
   m_Component:
   - component: {fileID: 30310529}
   - component: {fileID: 30310531}
-  - component: {fileID: 30310530}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -1020,29 +1019,6 @@ Transform:
   - {fileID: 717227061}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &30310530
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 30310528}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146861
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146861
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &30310531
 LODGroup:
   m_ObjectHideFlags: 0
@@ -1250,7 +1226,6 @@ GameObject:
   m_Component:
   - component: {fileID: 50469520}
   - component: {fileID: 50469522}
-  - component: {fileID: 50469521}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -1277,29 +1252,6 @@ Transform:
   - {fileID: 1432268892}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &50469521
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 50469519}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146816
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146816
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &50469522
 LODGroup:
   m_ObjectHideFlags: 0
@@ -1449,7 +1401,6 @@ GameObject:
   m_Component:
   - component: {fileID: 58548495}
   - component: {fileID: 58548497}
-  - component: {fileID: 58548496}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -1476,29 +1427,6 @@ Transform:
   - {fileID: 1104205935}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &58548496
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 58548494}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146849
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146849
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &58548497
 LODGroup:
   m_ObjectHideFlags: 0
@@ -1648,7 +1576,6 @@ GameObject:
   m_Component:
   - component: {fileID: 64328995}
   - component: {fileID: 64328997}
-  - component: {fileID: 64328996}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -1675,29 +1602,6 @@ Transform:
   - {fileID: 5175568}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &64328996
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 64328994}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146847
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146847
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &64328997
 LODGroup:
   m_ObjectHideFlags: 0
@@ -2075,7 +1979,6 @@ GameObject:
   m_Component:
   - component: {fileID: 102098054}
   - component: {fileID: 102098056}
-  - component: {fileID: 102098055}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -2102,29 +2005,6 @@ Transform:
   - {fileID: 396570020}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &102098055
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 102098053}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146774
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146774
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &102098056
 LODGroup:
   m_ObjectHideFlags: 0
@@ -2753,7 +2633,6 @@ GameObject:
   m_Component:
   - component: {fileID: 128475882}
   - component: {fileID: 128475884}
-  - component: {fileID: 128475883}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -2780,29 +2659,6 @@ Transform:
   - {fileID: 873237862}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &128475883
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 128475881}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146795
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146795
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &128475884
 LODGroup:
   m_ObjectHideFlags: 0
@@ -3127,7 +2983,6 @@ GameObject:
   m_Component:
   - component: {fileID: 140555626}
   - component: {fileID: 140555628}
-  - component: {fileID: 140555627}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -3154,29 +3009,6 @@ Transform:
   - {fileID: 1184504009}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &140555627
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 140555625}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146833
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146833
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &140555628
 LODGroup:
   m_ObjectHideFlags: 0
@@ -3301,7 +3133,6 @@ GameObject:
   m_Component:
   - component: {fileID: 147834807}
   - component: {fileID: 147834809}
-  - component: {fileID: 147834808}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -3328,29 +3159,6 @@ Transform:
   - {fileID: 1128732841}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &147834808
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 147834806}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146825
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146825
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &147834809
 LODGroup:
   m_ObjectHideFlags: 0
@@ -3392,7 +3200,6 @@ GameObject:
   m_Component:
   - component: {fileID: 148136436}
   - component: {fileID: 148136438}
-  - component: {fileID: 148136437}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -3419,29 +3226,6 @@ Transform:
   - {fileID: 852404591}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &148136437
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 148136435}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146826
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146826
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &148136438
 LODGroup:
   m_ObjectHideFlags: 0
@@ -3975,7 +3759,6 @@ GameObject:
   m_Component:
   - component: {fileID: 178887784}
   - component: {fileID: 178887786}
-  - component: {fileID: 178887785}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -4002,29 +3785,6 @@ Transform:
   - {fileID: 1561335173}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &178887785
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 178887783}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146797
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146797
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &178887786
 LODGroup:
   m_ObjectHideFlags: 0
@@ -4066,7 +3826,6 @@ GameObject:
   m_Component:
   - component: {fileID: 200920039}
   - component: {fileID: 200920041}
-  - component: {fileID: 200920040}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -4093,29 +3852,6 @@ Transform:
   - {fileID: 5267162}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &200920040
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 200920038}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146800
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146800
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &200920041
 LODGroup:
   m_ObjectHideFlags: 0
@@ -5437,7 +5173,6 @@ GameObject:
   m_Component:
   - component: {fileID: 268035487}
   - component: {fileID: 268035489}
-  - component: {fileID: 268035488}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -5464,29 +5199,6 @@ Transform:
   - {fileID: 513297940}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &268035488
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 268035486}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146788
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146788
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &268035489
 LODGroup:
   m_ObjectHideFlags: 0
@@ -5611,7 +5323,6 @@ GameObject:
   m_Component:
   - component: {fileID: 275678332}
   - component: {fileID: 275678334}
-  - component: {fileID: 275678333}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -5638,29 +5349,6 @@ Transform:
   - {fileID: 1803106494}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &275678333
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 275678331}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146855
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146855
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &275678334
 LODGroup:
   m_ObjectHideFlags: 0
@@ -5954,7 +5642,6 @@ GameObject:
   m_Component:
   - component: {fileID: 314587861}
   - component: {fileID: 314587863}
-  - component: {fileID: 314587862}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -5981,29 +5668,6 @@ Transform:
   - {fileID: 1682236870}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &314587862
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 314587860}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146805
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146805
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &314587863
 LODGroup:
   m_ObjectHideFlags: 0
@@ -6045,7 +5709,6 @@ GameObject:
   m_Component:
   - component: {fileID: 320921082}
   - component: {fileID: 320921084}
-  - component: {fileID: 320921083}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -6072,29 +5735,6 @@ Transform:
   - {fileID: 1622861729}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &320921083
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 320921081}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146840
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146840
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &320921084
 LODGroup:
   m_ObjectHideFlags: 0
@@ -6855,7 +6495,6 @@ GameObject:
   m_Component:
   - component: {fileID: 371048043}
   - component: {fileID: 371048045}
-  - component: {fileID: 371048044}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -6882,29 +6521,6 @@ Transform:
   - {fileID: 423103196}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &371048044
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 371048042}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146784
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146784
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &371048045
 LODGroup:
   m_ObjectHideFlags: 0
@@ -7196,7 +6812,6 @@ GameObject:
   m_Component:
   - component: {fileID: 403495750}
   - component: {fileID: 403495752}
-  - component: {fileID: 403495751}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -7223,29 +6838,6 @@ Transform:
   - {fileID: 1457670638}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &403495751
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 403495749}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146834
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146834
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &403495752
 LODGroup:
   m_ObjectHideFlags: 0
@@ -7395,7 +6987,6 @@ GameObject:
   m_Component:
   - component: {fileID: 405819438}
   - component: {fileID: 405819440}
-  - component: {fileID: 405819439}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -7422,29 +7013,6 @@ Transform:
   - {fileID: 1339768928}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &405819439
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 405819437}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146820
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146820
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &405819440
 LODGroup:
   m_ObjectHideFlags: 0
@@ -8949,13 +8517,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interactableType:
-    rid: 7799672245363146867
+    rid: 7799672297560997888
   _sceneContext: {fileID: 1167635389}
   references:
     version: 2
     RefIds:
-    - rid: 7799672245363146867
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
+    - rid: 7799672297560997888
+      type: {class: CuttableObject, ns: HCC.Interactable, asm: Assembly-CSharp}
       data:
         _cutData: {fileID: 11400000, guid: da632dfec1aca754ab7444f1d2ee29c0, type: 2}
         _cutMeshFilter: {fileID: 1655911169}
@@ -10265,7 +9833,6 @@ GameObject:
   m_Component:
   - component: {fileID: 526690388}
   - component: {fileID: 526690390}
-  - component: {fileID: 526690389}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -10292,29 +9859,6 @@ Transform:
   - {fileID: 1201733612}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &526690389
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 526690387}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146823
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146823
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &526690390
 LODGroup:
   m_ObjectHideFlags: 0
@@ -10547,7 +10091,6 @@ GameObject:
   m_Component:
   - component: {fileID: 545888306}
   - component: {fileID: 545888308}
-  - component: {fileID: 545888307}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -10574,29 +10117,6 @@ Transform:
   - {fileID: 464522555}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &545888307
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 545888305}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146792
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146792
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &545888308
 LODGroup:
   m_ObjectHideFlags: 0
@@ -11657,7 +11177,6 @@ GameObject:
   m_Component:
   - component: {fileID: 605165447}
   - component: {fileID: 605165449}
-  - component: {fileID: 605165448}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -11684,29 +11203,6 @@ Transform:
   - {fileID: 1975469552}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &605165448
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 605165446}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146783
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146783
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &605165449
 LODGroup:
   m_ObjectHideFlags: 0
@@ -12108,7 +11604,6 @@ GameObject:
   m_Component:
   - component: {fileID: 625830413}
   - component: {fileID: 625830415}
-  - component: {fileID: 625830414}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -12135,29 +11630,6 @@ Transform:
   - {fileID: 1148253499}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &625830414
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 625830412}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146860
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146860
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &625830415
 LODGroup:
   m_ObjectHideFlags: 0
@@ -12391,7 +11863,6 @@ GameObject:
   m_Component:
   - component: {fileID: 640917469}
   - component: {fileID: 640917471}
-  - component: {fileID: 640917470}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -12418,29 +11889,6 @@ Transform:
   - {fileID: 1815938189}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &640917470
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 640917468}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146832
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146832
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &640917471
 LODGroup:
   m_ObjectHideFlags: 0
@@ -12734,7 +12182,6 @@ GameObject:
   m_Component:
   - component: {fileID: 651386027}
   - component: {fileID: 651386029}
-  - component: {fileID: 651386028}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -12761,29 +12208,6 @@ Transform:
   - {fileID: 530464809}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &651386028
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 651386026}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146809
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146809
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &651386029
 LODGroup:
   m_ObjectHideFlags: 0
@@ -12909,7 +12333,6 @@ GameObject:
   m_Component:
   - component: {fileID: 655112126}
   - component: {fileID: 655112128}
-  - component: {fileID: 655112127}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -12936,29 +12359,6 @@ Transform:
   - {fileID: 944364503}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &655112127
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 655112125}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146799
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146799
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &655112128
 LODGroup:
   m_ObjectHideFlags: 0
@@ -13236,7 +12636,6 @@ GameObject:
   m_Component:
   - component: {fileID: 660357096}
   - component: {fileID: 660357098}
-  - component: {fileID: 660357097}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -13263,29 +12662,6 @@ Transform:
   - {fileID: 141337635}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &660357097
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 660357095}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146856
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146856
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &660357098
 LODGroup:
   m_ObjectHideFlags: 0
@@ -13327,7 +12703,6 @@ GameObject:
   m_Component:
   - component: {fileID: 663925732}
   - component: {fileID: 663925734}
-  - component: {fileID: 663925733}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -13354,29 +12729,6 @@ Transform:
   - {fileID: 2020035762}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &663925733
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 663925731}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146859
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146859
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &663925734
 LODGroup:
   m_ObjectHideFlags: 0
@@ -13502,7 +12854,6 @@ GameObject:
   m_Component:
   - component: {fileID: 674524225}
   - component: {fileID: 674524227}
-  - component: {fileID: 674524226}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -13529,29 +12880,6 @@ Transform:
   - {fileID: 1696083233}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &674524226
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 674524224}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146831
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146831
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &674524227
 LODGroup:
   m_ObjectHideFlags: 0
@@ -13677,7 +13005,6 @@ GameObject:
   m_Component:
   - component: {fileID: 683528728}
   - component: {fileID: 683528730}
-  - component: {fileID: 683528729}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -13704,29 +13031,6 @@ Transform:
   - {fileID: 1178325914}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &683528729
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 683528727}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146804
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146804
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &683528730
 LODGroup:
   m_ObjectHideFlags: 0
@@ -14018,7 +13322,6 @@ GameObject:
   m_Component:
   - component: {fileID: 708189469}
   - component: {fileID: 708189471}
-  - component: {fileID: 708189470}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -14045,29 +13348,6 @@ Transform:
   - {fileID: 1787987347}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &708189470
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 708189468}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146843
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146843
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &708189471
 LODGroup:
   m_ObjectHideFlags: 0
@@ -14275,7 +13555,6 @@ GameObject:
   m_Component:
   - component: {fileID: 718066862}
   - component: {fileID: 718066864}
-  - component: {fileID: 718066863}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -14302,29 +13581,6 @@ Transform:
   - {fileID: 1395830256}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &718066863
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 718066861}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146782
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146782
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &718066864
 LODGroup:
   m_ObjectHideFlags: 0
@@ -14641,7 +13897,6 @@ GameObject:
   m_Component:
   - component: {fileID: 729450860}
   - component: {fileID: 729450862}
-  - component: {fileID: 729450861}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -14668,29 +13923,6 @@ Transform:
   - {fileID: 1971480881}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &729450861
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 729450859}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146801
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146801
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &729450862
 LODGroup:
   m_ObjectHideFlags: 0
@@ -15096,7 +14328,6 @@ GameObject:
   m_Component:
   - component: {fileID: 736822483}
   - component: {fileID: 736822485}
-  - component: {fileID: 736822484}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -15123,29 +14354,6 @@ Transform:
   - {fileID: 118133987}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &736822484
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 736822482}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146841
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146841
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &736822485
 LODGroup:
   m_ObjectHideFlags: 0
@@ -15271,7 +14479,6 @@ GameObject:
   m_Component:
   - component: {fileID: 747460548}
   - component: {fileID: 747460550}
-  - component: {fileID: 747460549}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -15298,29 +14505,6 @@ Transform:
   - {fileID: 445499864}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &747460549
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 747460547}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146835
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146835
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &747460550
 LODGroup:
   m_ObjectHideFlags: 0
@@ -16500,7 +15684,6 @@ GameObject:
   m_Component:
   - component: {fileID: 833955223}
   - component: {fileID: 833955225}
-  - component: {fileID: 833955224}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -16527,29 +15710,6 @@ Transform:
   - {fileID: 513639784}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &833955224
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 833955222}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146819
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146819
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &833955225
 LODGroup:
   m_ObjectHideFlags: 0
@@ -16591,7 +15751,6 @@ GameObject:
   m_Component:
   - component: {fileID: 839408340}
   - component: {fileID: 839408342}
-  - component: {fileID: 839408341}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -16618,29 +15777,6 @@ Transform:
   - {fileID: 496128693}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &839408341
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 839408339}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146802
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146802
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &839408342
 LODGroup:
   m_ObjectHideFlags: 0
@@ -17209,7 +16345,6 @@ GameObject:
   m_Component:
   - component: {fileID: 853912235}
   - component: {fileID: 853912237}
-  - component: {fileID: 853912236}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -17236,29 +16371,6 @@ Transform:
   - {fileID: 914998577}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &853912236
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 853912234}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146828
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146828
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &853912237
 LODGroup:
   m_ObjectHideFlags: 0
@@ -17718,7 +16830,6 @@ GameObject:
   m_Component:
   - component: {fileID: 884537738}
   - component: {fileID: 884537740}
-  - component: {fileID: 884537739}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -17745,29 +16856,6 @@ Transform:
   - {fileID: 1822126633}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &884537739
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 884537737}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146837
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146837
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &884537740
 LODGroup:
   m_ObjectHideFlags: 0
@@ -18276,7 +17364,6 @@ GameObject:
   m_Component:
   - component: {fileID: 917248671}
   - component: {fileID: 917248673}
-  - component: {fileID: 917248672}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -18303,29 +17390,6 @@ Transform:
   - {fileID: 42592782}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &917248672
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 917248670}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146827
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146827
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &917248673
 LODGroup:
   m_ObjectHideFlags: 0
@@ -18451,7 +17515,6 @@ GameObject:
   m_Component:
   - component: {fileID: 926807656}
   - component: {fileID: 926807658}
-  - component: {fileID: 926807657}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -18478,29 +17541,6 @@ Transform:
   - {fileID: 710383856}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &926807657
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 926807655}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146839
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146839
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &926807658
 LODGroup:
   m_ObjectHideFlags: 0
@@ -18866,7 +17906,6 @@ GameObject:
   m_Component:
   - component: {fileID: 939873700}
   - component: {fileID: 939873702}
-  - component: {fileID: 939873701}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -18893,29 +17932,6 @@ Transform:
   - {fileID: 1940823897}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &939873701
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 939873699}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146830
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146830
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &939873702
 LODGroup:
   m_ObjectHideFlags: 0
@@ -19124,7 +18140,6 @@ GameObject:
   m_Component:
   - component: {fileID: 953717420}
   - component: {fileID: 953717422}
-  - component: {fileID: 953717421}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -19151,29 +18166,6 @@ Transform:
   - {fileID: 1024981004}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &953717421
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 953717419}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146851
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146851
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &953717422
 LODGroup:
   m_ObjectHideFlags: 0
@@ -19215,7 +18207,6 @@ GameObject:
   m_Component:
   - component: {fileID: 960363730}
   - component: {fileID: 960363732}
-  - component: {fileID: 960363731}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -19242,29 +18233,6 @@ Transform:
   - {fileID: 1970282905}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &960363731
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 960363729}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146845
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146845
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &960363732
 LODGroup:
   m_ObjectHideFlags: 0
@@ -19306,7 +18274,6 @@ GameObject:
   m_Component:
   - component: {fileID: 961287856}
   - component: {fileID: 961287858}
-  - component: {fileID: 961287857}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -19333,29 +18300,6 @@ Transform:
   - {fileID: 1538821539}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &961287857
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 961287855}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146779
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146779
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &961287858
 LODGroup:
   m_ObjectHideFlags: 0
@@ -19481,7 +18425,6 @@ GameObject:
   m_Component:
   - component: {fileID: 974888023}
   - component: {fileID: 974888025}
-  - component: {fileID: 974888024}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -19508,29 +18451,6 @@ Transform:
   - {fileID: 1989471310}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &974888024
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 974888022}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146786
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146786
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &974888025
 LODGroup:
   m_ObjectHideFlags: 0
@@ -20470,7 +19390,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1017817483}
   - component: {fileID: 1017817485}
-  - component: {fileID: 1017817484}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -20497,29 +19416,6 @@ Transform:
   - {fileID: 1891063915}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1017817484
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1017817482}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146815
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146815
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &1017817485
 LODGroup:
   m_ObjectHideFlags: 0
@@ -21004,7 +19900,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1046762664}
   - component: {fileID: 1046762666}
-  - component: {fileID: 1046762665}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -21031,29 +19926,6 @@ Transform:
   - {fileID: 1123041551}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1046762665
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1046762663}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146794
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146794
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &1046762666
 LODGroup:
   m_ObjectHideFlags: 0
@@ -21622,7 +20494,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1072639072}
   - component: {fileID: 1072639074}
-  - component: {fileID: 1072639073}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -21649,29 +20520,6 @@ Transform:
   - {fileID: 31536939}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1072639073
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1072639071}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146838
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146838
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &1072639074
 LODGroup:
   m_ObjectHideFlags: 0
@@ -21713,7 +20561,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1073047177}
   - component: {fileID: 1073047179}
-  - component: {fileID: 1073047178}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -21740,29 +20587,6 @@ Transform:
   - {fileID: 2093363931}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1073047178
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1073047176}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146778
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146778
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &1073047179
 LODGroup:
   m_ObjectHideFlags: 0
@@ -22354,7 +21178,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1108908147}
   - component: {fileID: 1108908149}
-  - component: {fileID: 1108908148}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -22381,29 +21204,6 @@ Transform:
   - {fileID: 2140275289}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1108908148
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1108908146}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146863
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146863
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &1108908149
 LODGroup:
   m_ObjectHideFlags: 0
@@ -22445,7 +21245,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1110978793}
   - component: {fileID: 1110978795}
-  - component: {fileID: 1110978794}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -22472,29 +21271,6 @@ Transform:
   - {fileID: 1883644081}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1110978794
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1110978792}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146844
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146844
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &1110978795
 LODGroup:
   m_ObjectHideFlags: 0
@@ -22786,7 +21562,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1115067934}
   - component: {fileID: 1115067936}
-  - component: {fileID: 1115067935}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -22813,29 +21588,6 @@ Transform:
   - {fileID: 1326929307}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1115067935
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1115067933}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146803
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146803
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &1115067936
 LODGroup:
   m_ObjectHideFlags: 0
@@ -24211,7 +22963,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1168774495}
   - component: {fileID: 1168774497}
-  - component: {fileID: 1168774496}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -24238,29 +22989,6 @@ Transform:
   - {fileID: 1113288591}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1168774496
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1168774494}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146789
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146789
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &1168774497
 LODGroup:
   m_ObjectHideFlags: 0
@@ -24554,7 +23282,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1173319088}
   - component: {fileID: 1173319090}
-  - component: {fileID: 1173319089}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -24581,29 +23308,6 @@ Transform:
   - {fileID: 822236487}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1173319089
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1173319087}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146818
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146818
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &1173319090
 LODGroup:
   m_ObjectHideFlags: 0
@@ -25062,7 +23766,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1202792739}
   - component: {fileID: 1202792741}
-  - component: {fileID: 1202792740}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -25089,29 +23792,6 @@ Transform:
   - {fileID: 1014731020}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1202792740
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1202792738}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146785
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146785
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &1202792741
 LODGroup:
   m_ObjectHideFlags: 0
@@ -25153,7 +23833,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1213308344}
   - component: {fileID: 1213308346}
-  - component: {fileID: 1213308345}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -25180,29 +23859,6 @@ Transform:
   - {fileID: 722752506}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1213308345
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1213308343}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146857
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146857
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &1213308346
 LODGroup:
   m_ObjectHideFlags: 0
@@ -25652,7 +24308,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1248162189}
   - component: {fileID: 1248162191}
-  - component: {fileID: 1248162190}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -25679,29 +24334,6 @@ Transform:
   - {fileID: 1844879255}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1248162190
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1248162188}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146854
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146854
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &1248162191
 LODGroup:
   m_ObjectHideFlags: 0
@@ -26211,7 +24843,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1272200262}
   - component: {fileID: 1272200264}
-  - component: {fileID: 1272200263}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -26238,29 +24869,6 @@ Transform:
   - {fileID: 1015198992}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1272200263
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1272200261}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146824
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146824
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &1272200264
 LODGroup:
   m_ObjectHideFlags: 0
@@ -26578,7 +25186,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1289843772}
   - component: {fileID: 1289843774}
-  - component: {fileID: 1289843773}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -26605,29 +25212,6 @@ Transform:
   - {fileID: 140054696}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1289843773
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1289843771}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146791
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146791
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &1289843774
 LODGroup:
   m_ObjectHideFlags: 0
@@ -26669,7 +25253,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1291983681}
   - component: {fileID: 1291983683}
-  - component: {fileID: 1291983682}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -26696,29 +25279,6 @@ Transform:
   - {fileID: 1458424737}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1291983682
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1291983680}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146862
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146862
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &1291983683
 LODGroup:
   m_ObjectHideFlags: 0
@@ -27060,7 +25620,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1307462504}
   - component: {fileID: 1307462506}
-  - component: {fileID: 1307462505}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -27087,29 +25646,6 @@ Transform:
   - {fileID: 1481616068}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1307462505
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1307462503}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146842
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146842
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &1307462506
 LODGroup:
   m_ObjectHideFlags: 0
@@ -27235,7 +25771,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1313442921}
   - component: {fileID: 1313442923}
-  - component: {fileID: 1313442922}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -27262,29 +25797,6 @@ Transform:
   - {fileID: 1972825174}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1313442922
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1313442920}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146836
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146836
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &1313442923
 LODGroup:
   m_ObjectHideFlags: 0
@@ -27326,7 +25838,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1319233169}
   - component: {fileID: 1319233171}
-  - component: {fileID: 1319233170}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -27353,29 +25864,6 @@ Transform:
   - {fileID: 481829972}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1319233170
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1319233168}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146806
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146806
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &1319233171
 LODGroup:
   m_ObjectHideFlags: 0
@@ -29596,7 +28084,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1422040527}
   - component: {fileID: 1422040529}
-  - component: {fileID: 1422040528}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -29623,29 +28110,6 @@ Transform:
   - {fileID: 461421584}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1422040528
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1422040526}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146769
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146769
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &1422040529
 LODGroup:
   m_ObjectHideFlags: 0
@@ -30046,7 +28510,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1440304874}
   - component: {fileID: 1440304876}
-  - component: {fileID: 1440304875}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -30073,29 +28536,6 @@ Transform:
   - {fileID: 1064444491}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1440304875
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1440304873}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146781
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146781
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &1440304876
 LODGroup:
   m_ObjectHideFlags: 0
@@ -30137,7 +28577,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1447201270}
   - component: {fileID: 1447201272}
-  - component: {fileID: 1447201271}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -30164,29 +28603,6 @@ Transform:
   - {fileID: 1383601488}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1447201271
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1447201269}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146812
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146812
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &1447201272
 LODGroup:
   m_ObjectHideFlags: 0
@@ -30969,7 +29385,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1484571960}
   - component: {fileID: 1484571962}
-  - component: {fileID: 1484571961}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -30996,29 +29411,6 @@ Transform:
   - {fileID: 588542294}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1484571961
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1484571959}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146790
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146790
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &1484571962
 LODGroup:
   m_ObjectHideFlags: 0
@@ -31060,7 +29452,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1484932221}
   - component: {fileID: 1484932223}
-  - component: {fileID: 1484932222}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -31087,29 +29478,6 @@ Transform:
   - {fileID: 1115006348}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1484932222
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1484932220}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146864
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146864
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &1484932223
 LODGroup:
   m_ObjectHideFlags: 0
@@ -31259,7 +29627,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1491103496}
   - component: {fileID: 1491103498}
-  - component: {fileID: 1491103497}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -31286,29 +29653,6 @@ Transform:
   - {fileID: 692560075}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1491103497
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1491103495}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146813
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146813
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &1491103498
 LODGroup:
   m_ObjectHideFlags: 0
@@ -31350,7 +29694,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1520587601}
   - component: {fileID: 1520587603}
-  - component: {fileID: 1520587602}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -31377,29 +29720,6 @@ Transform:
   - {fileID: 502384312}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1520587602
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1520587600}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146798
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146798
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &1520587603
 LODGroup:
   m_ObjectHideFlags: 0
@@ -31692,7 +30012,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1540225047}
   - component: {fileID: 1540225049}
-  - component: {fileID: 1540225048}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -31719,29 +30038,6 @@ Transform:
   - {fileID: 1014966887}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1540225048
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1540225046}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146810
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146810
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &1540225049
 LODGroup:
   m_ObjectHideFlags: 0
@@ -31783,7 +30079,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1540695247}
   - component: {fileID: 1540695249}
-  - component: {fileID: 1540695248}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -31810,29 +30105,6 @@ Transform:
   - {fileID: 2117723375}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1540695248
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1540695246}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146793
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146793
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &1540695249
 LODGroup:
   m_ObjectHideFlags: 0
@@ -31958,7 +30230,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1545493297}
   - component: {fileID: 1545493299}
-  - component: {fileID: 1545493298}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -31985,29 +30256,6 @@ Transform:
   - {fileID: 1610119234}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1545493298
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1545493296}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146773
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146773
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &1545493299
 LODGroup:
   m_ObjectHideFlags: 0
@@ -32049,7 +30297,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1549392235}
   - component: {fileID: 1549392237}
-  - component: {fileID: 1549392236}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -32076,29 +30323,6 @@ Transform:
   - {fileID: 1692218575}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1549392236
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1549392234}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146796
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146796
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &1549392237
 LODGroup:
   m_ObjectHideFlags: 0
@@ -32690,7 +30914,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1574065626}
   - component: {fileID: 1574065628}
-  - component: {fileID: 1574065627}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -32717,29 +30940,6 @@ Transform:
   - {fileID: 1997391275}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1574065627
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1574065625}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146846
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146846
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &1574065628
 LODGroup:
   m_ObjectHideFlags: 0
@@ -32949,7 +31149,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1595854271}
   - component: {fileID: 1595854273}
-  - component: {fileID: 1595854272}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -32976,29 +31175,6 @@ Transform:
   - {fileID: 412899595}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1595854272
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1595854270}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146829
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146829
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &1595854273
 LODGroup:
   m_ObjectHideFlags: 0
@@ -33040,7 +31216,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1596074913}
   - component: {fileID: 1596074915}
-  - component: {fileID: 1596074914}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -33067,29 +31242,6 @@ Transform:
   - {fileID: 334771099}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1596074914
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1596074912}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146807
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146807
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &1596074915
 LODGroup:
   m_ObjectHideFlags: 0
@@ -33323,7 +31475,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1601933775}
   - component: {fileID: 1601933777}
-  - component: {fileID: 1601933776}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -33350,29 +31501,6 @@ Transform:
   - {fileID: 379562261}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1601933776
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1601933774}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146776
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146776
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &1601933777
 LODGroup:
   m_ObjectHideFlags: 0
@@ -33664,7 +31792,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1644444557}
   - component: {fileID: 1644444559}
-  - component: {fileID: 1644444558}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -33691,29 +31818,6 @@ Transform:
   - {fileID: 2141209815}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1644444558
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1644444556}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146814
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146814
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &1644444559
 LODGroup:
   m_ObjectHideFlags: 0
@@ -34055,7 +32159,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1672977543}
   - component: {fileID: 1672977545}
-  - component: {fileID: 1672977544}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -34082,29 +32185,6 @@ Transform:
   - {fileID: 2058202615}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1672977544
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1672977542}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146853
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146853
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &1672977545
 LODGroup:
   m_ObjectHideFlags: 0
@@ -34387,6 +32467,74 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1682236869}
   m_Mesh: {fileID: 4300000, guid: 56f13f268c8f8de47bb7ea597662bba4, type: 2}
+--- !u!1001 &1686683005
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 926698280079554740, guid: 35724b9ec008d2949aeb4b34bff2f7cc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 37.348576
+      objectReference: {fileID: 0}
+    - target: {fileID: 926698280079554740, guid: 35724b9ec008d2949aeb4b34bff2f7cc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 926698280079554740, guid: 35724b9ec008d2949aeb4b34bff2f7cc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 34.113914
+      objectReference: {fileID: 0}
+    - target: {fileID: 926698280079554740, guid: 35724b9ec008d2949aeb4b34bff2f7cc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 926698280079554740, guid: 35724b9ec008d2949aeb4b34bff2f7cc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 926698280079554740, guid: 35724b9ec008d2949aeb4b34bff2f7cc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 926698280079554740, guid: 35724b9ec008d2949aeb4b34bff2f7cc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 926698280079554740, guid: 35724b9ec008d2949aeb4b34bff2f7cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 926698280079554740, guid: 35724b9ec008d2949aeb4b34bff2f7cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 926698280079554740, guid: 35724b9ec008d2949aeb4b34bff2f7cc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 926698280079647892, guid: 35724b9ec008d2949aeb4b34bff2f7cc,
+        type: 3}
+      propertyPath: m_Name
+      value: Board_01
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 35724b9ec008d2949aeb4b34bff2f7cc, type: 3}
 --- !u!1 &1689665091
 GameObject:
   m_ObjectHideFlags: 0
@@ -34397,7 +32545,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1689665092}
   - component: {fileID: 1689665094}
-  - component: {fileID: 1689665093}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -34424,29 +32571,6 @@ Transform:
   - {fileID: 274682898}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1689665093
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1689665091}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146787
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146787
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &1689665094
 LODGroup:
   m_ObjectHideFlags: 0
@@ -34930,7 +33054,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1716483176}
   - component: {fileID: 1716483178}
-  - component: {fileID: 1716483177}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -34957,29 +33080,6 @@ Transform:
   - {fileID: 459880801}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1716483177
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1716483175}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146858
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146858
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &1716483178
 LODGroup:
   m_ObjectHideFlags: 0
@@ -35237,7 +33337,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1738308889}
   - component: {fileID: 1738308891}
-  - component: {fileID: 1738308890}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -35264,29 +33363,6 @@ Transform:
   - {fileID: 1561382245}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1738308890
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1738308888}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146850
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146850
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &1738308891
 LODGroup:
   m_ObjectHideFlags: 0
@@ -36873,7 +34949,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1817157598}
   - component: {fileID: 1817157600}
-  - component: {fileID: 1817157599}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -36900,29 +34975,6 @@ Transform:
   - {fileID: 689472090}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1817157599
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1817157597}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146808
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146808
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &1817157600
 LODGroup:
   m_ObjectHideFlags: 0
@@ -37598,7 +35650,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1852726715}
   - component: {fileID: 1852726717}
-  - component: {fileID: 1852726716}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -37625,29 +35676,6 @@ Transform:
   - {fileID: 810820187}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1852726716
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1852726714}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146822
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146822
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &1852726717
 LODGroup:
   m_ObjectHideFlags: 0
@@ -37773,7 +35801,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1872148903}
   - component: {fileID: 1872148905}
-  - component: {fileID: 1872148904}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -37800,29 +35827,6 @@ Transform:
   - {fileID: 869429943}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1872148904
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1872148902}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146770
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146770
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &1872148905
 LODGroup:
   m_ObjectHideFlags: 0
@@ -37864,7 +35868,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1875384988}
   - component: {fileID: 1875384990}
-  - component: {fileID: 1875384989}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -37891,29 +35894,6 @@ Transform:
   - {fileID: 22588901}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1875384989
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1875384987}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146772
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146772
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &1875384990
 LODGroup:
   m_ObjectHideFlags: 0
@@ -38714,7 +36694,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1912539875}
   - component: {fileID: 1912539877}
-  - component: {fileID: 1912539876}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -38741,29 +36720,6 @@ Transform:
   - {fileID: 2034198084}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1912539876
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1912539874}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146821
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146821
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &1912539877
 LODGroup:
   m_ObjectHideFlags: 0
@@ -38923,7 +36879,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1917949143}
   - component: {fileID: 1917949145}
-  - component: {fileID: 1917949144}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -38950,29 +36905,6 @@ Transform:
   - {fileID: 134333261}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1917949144
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1917949142}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146771
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146771
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &1917949145
 LODGroup:
   m_ObjectHideFlags: 0
@@ -39230,7 +37162,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1923596655}
   - component: {fileID: 1923596657}
-  - component: {fileID: 1923596656}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -39257,29 +37188,6 @@ Transform:
   - {fileID: 1120379352}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1923596656
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1923596654}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146775
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146775
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &1923596657
 LODGroup:
   m_ObjectHideFlags: 0
@@ -40364,7 +38272,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1954390143}
   - component: {fileID: 1954390145}
-  - component: {fileID: 1954390144}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -40391,29 +38298,6 @@ Transform:
   - {fileID: 2061687313}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1954390144
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1954390142}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146780
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146780
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &1954390145
 LODGroup:
   m_ObjectHideFlags: 0
@@ -40563,7 +38447,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1968415297}
   - component: {fileID: 1968415299}
-  - component: {fileID: 1968415298}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -40590,29 +38473,6 @@ Transform:
   - {fileID: 1405456575}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1968415298
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1968415296}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146811
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146811
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &1968415299
 LODGroup:
   m_ObjectHideFlags: 0
@@ -42087,7 +39947,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2026416631}
   - component: {fileID: 2026416633}
-  - component: {fileID: 2026416632}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -42114,29 +39973,6 @@ Transform:
   - {fileID: 1007088113}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2026416632
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2026416630}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146777
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146777
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &2026416633
 LODGroup:
   m_ObjectHideFlags: 0
@@ -42810,7 +40646,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2070984372}
   - component: {fileID: 2070984374}
-  - component: {fileID: 2070984373}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -42837,29 +40672,6 @@ Transform:
   - {fileID: 202422575}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2070984373
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2070984371}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146852
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146852
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &2070984374
 LODGroup:
   m_ObjectHideFlags: 0
@@ -43261,7 +41073,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2085797196}
   - component: {fileID: 2085797198}
-  - component: {fileID: 2085797197}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -43288,29 +41099,6 @@ Transform:
   - {fileID: 2053097349}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2085797197
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2085797195}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146817
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146817
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &2085797198
 LODGroup:
   m_ObjectHideFlags: 0
@@ -43435,7 +41223,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2095659889}
   - component: {fileID: 2095659891}
-  - component: {fileID: 2095659890}
   m_Layer: 6
   m_Name: prefab_beech_tree_01(Clone)
   m_TagString: Untagged
@@ -43462,29 +41249,6 @@ Transform:
   - {fileID: 12610936}
   m_Father: {fileID: 658083351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2095659890
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2095659888}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672245363146848
-  _sceneContext: {fileID: 1167635389}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672245363146848
-      type: {class: CuttableObject, ns: HCC.Structs.Interactable, asm: Assembly-CSharp}
-      data:
-        _cutData: {fileID: 0}
-        _cutMeshFilter: {fileID: 0}
 --- !u!205 &2095659891
 LODGroup:
   m_ObjectHideFlags: 0
@@ -44854,6 +42618,36 @@ PrefabInstance:
       propertyPath: _dataParam._mainCanvas
       value: 
       objectReference: {fileID: 474357668}
+    - target: {fileID: 2620988809320883047, guid: 48aa259bce4f6d44193342832b7f3904,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2620988809320883047, guid: 48aa259bce4f6d44193342832b7f3904,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2620988809320883047, guid: 48aa259bce4f6d44193342832b7f3904,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2620988809320883047, guid: 48aa259bce4f6d44193342832b7f3904,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2620988809320883047, guid: 48aa259bce4f6d44193342832b7f3904,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2620988809320883047, guid: 48aa259bce4f6d44193342832b7f3904,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3042700736697813784, guid: 48aa259bce4f6d44193342832b7f3904,
         type: 3}
       propertyPath: m_Pivot.x
@@ -44954,6 +42748,36 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4776043802706468191, guid: 48aa259bce4f6d44193342832b7f3904,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4776043802706468191, guid: 48aa259bce4f6d44193342832b7f3904,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4776043802706468191, guid: 48aa259bce4f6d44193342832b7f3904,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4776043802706468191, guid: 48aa259bce4f6d44193342832b7f3904,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4776043802706468191, guid: 48aa259bce4f6d44193342832b7f3904,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4776043802706468191, guid: 48aa259bce4f6d44193342832b7f3904,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5620407676120219555, guid: 48aa259bce4f6d44193342832b7f3904,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -45012,12 +42836,32 @@ PrefabInstance:
     - target: {fileID: 6951805456563185561, guid: 48aa259bce4f6d44193342832b7f3904,
         type: 3}
       propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881920447457049347, guid: 48aa259bce4f6d44193342832b7f3904,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881920447457049347, guid: 48aa259bce4f6d44193342832b7f3904,
+        type: 3}
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8737413681299038677, guid: 48aa259bce4f6d44193342832b7f3904,
         type: 3}
       propertyPath: m_Name
       value: '[GUI]Inventory'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8825193091041471951, guid: 48aa259bce4f6d44193342832b7f3904,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8825193091041471951, guid: 48aa259bce4f6d44193342832b7f3904,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -45041,3 +42885,4 @@ SceneRoots:
   - {fileID: 474357669}
   - {fileID: 732384998}
   - {fileID: 1885157582}
+  - {fileID: 1686683005}

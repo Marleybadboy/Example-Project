@@ -78,4 +78,21 @@ namespace HCC.GUI
             _dataHolderParam.AssignManager(_managerParam);
         }
     }
+
+    public class HolderCraftingInitializator<TManagerParam> : IInitializable where TManagerParam : GUIManager
+    {
+        private readonly TManagerParam _managerParam;
+        private readonly CraftingHolder _dataHolderParam;
+
+        public HolderCraftingInitializator(TManagerParam managerParam, CraftingHolder dataParam)
+        {
+            _managerParam = managerParam;
+            _dataHolderParam = dataParam;
+        }
+
+        public void Initialize()
+        {
+            _dataHolderParam.AssignManager(_managerParam);
+        }
+    }
 }
