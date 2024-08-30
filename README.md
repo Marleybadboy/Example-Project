@@ -6,6 +6,6 @@ Example Project to prosta gra o zbieraniu zasobów i craftowaniu przedmiotów. G
 ### Input
 1. WASD - poruszanie postacią
 2. TAB - Otwarcie ekwipunku
-ESC - Zamknięcie Ekwipunku
-R - Usuwanie przedmiotu z ekwipunku, tylo kiedy kursor znajduje sie nad ikoną przedmiotu
-LPM - Akcja czylu użycie przedmiotu lub/gdy postać ma wole rece podnosi przedmiot
+3. ESC - Zamknięcie Ekwipunku
+4. R - Usuwanie przedmiotu z ekwipunku, tylo kiedy kursor znajduje sie nad ikoną przedmiotu
+5. LPM - Akcja czylu użycie przedmiotu lub/gdy postać ma wole rece podnosi przedmiot
