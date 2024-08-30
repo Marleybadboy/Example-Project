@@ -36,7 +36,7 @@ W każdym stanie można edytować Input. Wyłącznie oraz włączanie. Aby unikn
 
 ### Zbieranie Przedmiotów i Zasobów
 
-Gracz zbiera zasoby przez interakje z otoczeniem. Każde drzewo może być ścięte i jest oparte na generycznym cięciu mesha. Używając myszki można ściać każdy obiekt.
+Gracz zbiera zasoby przez interakje z otoczeniem. Każde drzewo może być ścięte i jest oparte na generycznym cięciu mesha. Używając myszki można kontolować wysokość ścinania obiektu.
 
 ```csharp
 
