@@ -8,7 +8,7 @@ Example Project to prosta gra o zbieraniu zasobów i craftowaniu przedmiotów. G
 2. TAB - Otwarcie ekwipunku
 3. ESC - Zamknięcie Ekwipunku
 4. R - Usuwanie przedmiotu z ekwipunku, tylo kiedy kursor znajduje sie nad ikoną przedmiotu
-5. LPM - Akcja czylu użycie przedmiotu lub/gdy postać ma wole rece podnosi przedmiot
+5. LPM - Akcja czyli użycie przedmiotu lub/gdy postać ma wole rece podnosi przedmiot
 6. Klawisze Numeryczne 1 - Siekiera 2 - Kilof 3 - chowanie przedmiotu
 
 ### Klasa State
@@ -86,10 +86,52 @@ System sprawdza czy dodane przedmioty do slotów mogą zostać wytworzone. Dodat
 > [!NOTE]
 > W prefabie Crafting_Panel jest możliwości dodania Failure Callback w postaci UnityEvent. Można bez problemowo dodać wywołanie bez codowania
 
+<p align="center">
+  <img src="Readme_Files/Unity_5uFZmDriXD.png" alt="Main Menu" width="500"/>
+</p>
+
+
+### Notyfikacje
+Kolejnym elementem są notyfikacje pojawiające się prawym górnym ekranie informującym o stanie gracza. Są zdarzenia takiej jak:
+* Zebranie przedmioty z ziemi
+* Wydobycie przedmiotu
+* Powodzenie/Niepowodzenie craftingu
+* Detekcja
+
+Wywołanie notyfikacji zostało przypisane do Eventu statyczne na potrzeba wywołania w każdym momencie. 
 
 
 
+```csharp
+    private void Hit(Collision collisionInfo)
+        {
+            if (HitByCutObject(collisionInfo))
+            {
+                bool inv = _inventory != null;
+                
+                if (_cutDisable) return;
 
+                _cutDisable = true;
+
+                _currentHits++;
+
+                StaticEvents.ExecuteShowMessage("Tree hit!");
+
+                if (_currentHits >= _cutData.MaxHits)
+                {
+                    ContactPoint point = collisionInfo.GetContact(0);
+
+                    _contact = point.point;
+
+                    CutObject();
+
+                    return;
+                }
+
+                new DOTimer(_cutData.HitDelay, EnableCut);
+            }
+
+```
 
 
 
