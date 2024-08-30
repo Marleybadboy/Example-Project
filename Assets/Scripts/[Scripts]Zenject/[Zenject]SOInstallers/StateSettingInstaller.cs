@@ -24,12 +24,9 @@ public class StateSettingInstaller : ScriptableObjectInstaller<StateSettingInsta
 
         Container.Inject((InventoryState)_gameStateSettings.GetState(new InventoryState()));
 
-
         Container.Bind<IInitializable>().To<ControleInjection>().AsSingle().NonLazy();
 
         Container.Bind<IInitializable>().To<CraftingManagerInitializator>().AsSingle().NonLazy();
-
-        Debug.Log($"jest {nameof(CraftingManager)}: {Container.HasBinding<CraftingManager>()}");
 
 
     }

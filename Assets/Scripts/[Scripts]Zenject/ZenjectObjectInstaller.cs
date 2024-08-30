@@ -27,10 +27,6 @@ namespace HCC.Zenject.Installers
 
             Container.Bind<IInitializable>().To<HolderInventoryInitializator<InventoryManager>>().AsSingle().NonLazy();
 
-            Debug.Log(Container.HasBinding<NotificationHolder>());
-
-
-
             if (_bindData.Length >= 0) return;
 
             for(int i =0;  i < _bindData.Length; i++) 

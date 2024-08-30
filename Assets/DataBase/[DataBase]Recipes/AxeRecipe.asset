@@ -15,5 +15,5 @@ MonoBehaviour:
   _itemsToCraft:
   - {fileID: 11400000, guid: 15181e7f9a5350542b9f21ab5b526d8d, type: 2}
   - {fileID: 11400000, guid: 1b90a87ab0c64af48946cce237cc003f, type: 2}
-  _itemCrafted: {fileID: 11400000, guid: 9b0ed176fdc9b8f4dbbfce524a8e6f97, type: 2}
-  _probability: 100
+  _itemCrafted: {fileID: 11400000, guid: 148cf26f9475f3b4abde5320b8417ec2, type: 2}
+  _probability: 40

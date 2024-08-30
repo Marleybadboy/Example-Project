@@ -23,4 +23,4 @@ MonoBehaviour:
     y: 10
     z: 0
   _newObjectMass: 500
-  _afterCutMaterial: {fileID: 0}
+  _afterCutMaterial: {fileID: 2100000, guid: 1bb7a796d4a8f3a4a8641e633b298e79, type: 2}

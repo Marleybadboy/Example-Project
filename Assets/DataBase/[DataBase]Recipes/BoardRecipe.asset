@@ -16,4 +16,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 515616da1e10f4b4fa2148d59798d807, type: 2}
   - {fileID: 11400000, guid: 515616da1e10f4b4fa2148d59798d807, type: 2}
   _itemCrafted: {fileID: 11400000, guid: 15181e7f9a5350542b9f21ab5b526d8d, type: 2}
-  _probability: 100
+  _probability: 80
