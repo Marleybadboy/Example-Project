@@ -3,7 +3,8 @@ using UnityEngine;
 using Zenject;
 
 namespace HCC.GameState
-{
+{/* The class `GameStateControler` manages game states and inventory in a C# program. */
+
     public class GameStateControler
     {
         #region Fields
@@ -27,6 +28,12 @@ namespace HCC.GameState
 
         #endregion
 
+     /// <summary>
+     /// The SetInventory method sets the inventory, while the ChangeState method changes the state
+     /// based on the provided state parameter.
+     /// </summary>
+     /// <param name="Inventory">An inventory object that likely contains information about items,
+     /// quantities, and possibly other related data.</param>
         #region Methods
         public void SetInventory(Inventory inventory) 
         { 
@@ -52,6 +59,14 @@ namespace HCC.GameState
             }
         
         }
+/// <summary>
+/// The code snippet contains methods for managing states and checking inventory existence in a C#
+/// program.
+/// </summary>
+/// <returns>
+/// The `InvetoryExist` method is returning a boolean value, indicating whether the `_inventory`
+/// variable is not null.
+/// </returns>
 
         public void BackToPrevious() 
         {

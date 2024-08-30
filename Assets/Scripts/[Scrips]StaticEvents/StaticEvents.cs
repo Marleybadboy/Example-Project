@@ -2,6 +2,8 @@ using System;
 
 namespace HCC.StaticEvents
 {
+   /* The class `StaticEvents` in C# contains static events `OnItemCollected` and `OnShowMessage` along
+   with corresponding methods to execute these events. */
     public class StaticEvents
     {
         #region Events

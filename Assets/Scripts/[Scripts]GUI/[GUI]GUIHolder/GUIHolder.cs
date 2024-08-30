@@ -5,6 +5,9 @@ using Zenject;
 
 namespace HCC.GUI
 {
+    /* The `public abstract class GUIHolder<TManagerParam,TDataParam> : MonoBehaviour where
+    TManagerParam : GUIManager where TDataParam : IUIDataHolder` is a generic abstract class in C#
+    that extends `MonoBehaviour`. */
     public abstract class GUIHolder<TManagerParam,TDataParam> : MonoBehaviour where TManagerParam : GUIManager where TDataParam : IUIDataHolder
     {
         #region Fields
@@ -31,6 +34,12 @@ namespace HCC.GUI
         }
 
         
+      /// <summary>
+      /// The AssignManager function assigns a GUIManager to a parameter of type TManagerParam.
+      /// </summary>
+      /// <param name="GUIManager">In the provided code snippet, the `AssignManager` method takes a
+      /// parameter of type `GUIManager` and assigns it to a field `_managerParam` after casting it to
+      /// type `TManagerParam`.</param>
         public virtual void AssignManager(GUIManager manager) 
         {
             _managerParam = (TManagerParam)manager;
