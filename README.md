@@ -26,3 +26,8 @@ _controlInput: Obiekt typu InputControl, który jest serializowany do Unity i ko
 
 > [!NOTE]
 > Wszystkie klasy używają frameworka Zenject do wstrzykiwania zależności i zarządzania inicjalizacją. BindState, AssignValue oraz klasy pomocnicze jak ControleInjection używają Zenject do integracji stanu gry i innych komponentów.
+ #### Baza danych stanów
+
+<p align="center">
+  <img src="Readme_Files/Unity_vriC9n1rnn.png" alt="Main Menu" width="300"/>
+</p>
