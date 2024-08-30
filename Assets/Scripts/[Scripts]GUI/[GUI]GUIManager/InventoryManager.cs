@@ -101,8 +101,6 @@ namespace HCC.GUI
             if (_itemSlotsData.Contains(slot)) 
             { 
                 _itemSlotsData.Remove(slot);
-
-                Debug.Log("removed" + _itemSlotsData.Count);
             }
         }
 

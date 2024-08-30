@@ -9,12 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: MiningData
-  m_EditorClassIdentifier: Assembly-CSharp:HCC.DataBase:MiningData
+  m_Script: {fileID: 11500000, guid: 445a737ac0e30f7459a8dcb4e0b3d19d, type: 3}
+  m_Name: MiningData_02
+  m_EditorClassIdentifier: 
   _maxHits: 1
   _interactObjectIdentifier:
     _itemIdentyfication: Pickaxe
-  _itemToAdd: {fileID: 0}
-  _minMaxValueToAdd: {x: 1, y: 2}
-  _hitDelay: 0.5
+  _itemToAdd: {fileID: 11400000, guid: a444f21befec5fd43bbad65dd61c53a9, type: 2}
+  _minMaxValueToAdd: {x: 1, y: 3}
+  _hitDelay: 0.36

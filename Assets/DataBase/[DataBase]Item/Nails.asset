@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b784e44e2b85d16448af067bfc5ac930, type: 3}
+  m_Name: Nails
+  m_EditorClassIdentifier: 
+  _identifier:
+    _itemIdentyfication: Nails
+  _itemIcon: {fileID: 21300000, guid: 5b4a642357807354e8c320ee0a37d7fc, type: 3}
+  _itemPrefab: {fileID: 8941166204336065722, guid: c0d7f1b548b7618459216841d2796a8f,
+    type: 3}
+  _identyfierCreator:
+    _newIdentifier: Nails
+    _identifier:
+      _itemIdentyfication: 

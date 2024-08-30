@@ -46,16 +46,14 @@ namespace HCC.Interactable
             if (HitByCutObject(collisionInfo))
             {
                 bool inv = _inventory != null;
-
-                Debug.Log("HITT" + _currentHits + " inventory is" + inv);
-
+                
                 if (_cutDisable) return;
 
                 _cutDisable = true;
 
                 _currentHits++;
 
-                Debug.Log("HITT" + _currentHits);
+                StaticEvents.StaticEvents.ExecuteShowMessage("Tree hit!");
 
                 if (_currentHits >= _cutData.MaxHits)
                 {

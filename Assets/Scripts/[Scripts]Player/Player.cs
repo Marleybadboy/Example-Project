@@ -156,6 +156,8 @@ namespace HCC.Player
             {
                 _inventory.AddItem(collactable.ItemToAdd);
 
+                StaticEvents.StaticEvents.ExecuteShowMessage($"Item collected! {collactable.ItemToAdd.Identyfier.ItemIdentyfication}");
+
                 Destroy(_interactable.gameObject);
             }
 
@@ -166,7 +168,7 @@ namespace HCC.Player
         {
 
             if (_usefullHolder.State == UsefullHolder.UsefullState.Item) return;
-
+            
             RaycastFinder finder = new RaycastFinder(_origin, _distanceFinder);
 
             if (finder.Hit.collider == null) return;

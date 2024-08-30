@@ -42,8 +42,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8762849665937274863}
   m_Layer: 0
-  m_Name: Axe
-  m_TagString: Untagged
+  m_Name: Axe_Crafted
+  m_TagString: Collactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -73,8 +73,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5798092370621959076}
-  - component: {fileID: 6246971194739427482}
-  - component: {fileID: 5963653328285691740}
   m_Layer: 0
   m_Name: PTZ15
   m_TagString: Untagged
@@ -98,35 +96,6 @@ Transform:
   - {fileID: 1283932156592383366}
   m_Father: {fileID: 5711666140291509218}
   m_LocalEulerAnglesHint: {x: -13.8983755, y: -149.65625, z: 92.37778}
---- !u!111 &6246971194739427482
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3259694261261632668}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 0ed146dc38b0d40479f212098a746d1d, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: 0ed146dc38b0d40479f212098a746d1d, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
---- !u!114 &5963653328285691740
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3259694261261632668}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ec01a2cb14094b45add1412f45b6948, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _itemType: {fileID: 11400000, guid: 9b0ed176fdc9b8f4dbbfce524a8e6f97, type: 2}
 --- !u!1 &5704353629954261773
 GameObject:
   m_ObjectHideFlags: 0
@@ -138,6 +107,9 @@ GameObject:
   - component: {fileID: 1283932156592383366}
   - component: {fileID: 7868190533088440602}
   - component: {fileID: 3392103734584452078}
+  - component: {fileID: 8535841103965554747}
+  - component: {fileID: 5417056444134314101}
+  - component: {fileID: 4992225181466157209}
   m_Layer: 0
   m_Name: PTZ15
   m_TagString: Untagged
@@ -210,6 +182,76 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8535841103965554747
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5704353629954261773}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.07332401, y: 0.9557578, z: 0.23203363}
+  m_Center: {x: 0, y: 0.20044115, z: -0.059970938}
+--- !u!54 &5417056444134314101
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5704353629954261773}
+  serializedVersion: 4
+  m_Mass: 20
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &4992225181466157209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5704353629954261773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactableType:
+    rid: 7799672297560997896
+  _sceneContext: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 7799672297560997896
+      type: {class: Collactable, ns: , asm: Assembly-CSharp}
+      data:
+        _itemToAdd: {fileID: 11400000, guid: 9b0ed176fdc9b8f4dbbfce524a8e6f97, type: 2}
 --- !u!1 &9077108113745053183
 GameObject:
   m_ObjectHideFlags: 0

@@ -177,8 +177,9 @@ GameObject:
   - component: {fileID: 580224869952072459}
   - component: {fileID: 580224869952875311}
   - component: {fileID: 580224869953841647}
-  - component: {fileID: 7048331083509626458}
+  - component: {fileID: 5095732418752701667}
   - component: {fileID: 3568939161248312701}
+  - component: {fileID: 7330973636416043185}
   m_Layer: 0
   m_Name: beech_forest_stones_01_7_LOD0
   m_TagString: Untagged
@@ -251,8 +252,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &7048331083509626458
-MeshCollider:
+--- !u!65 &5095732418752701667
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -269,10 +270,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300004, guid: c89ab33515cb8744194d4240ba904eff, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 0.96340036, y: 0.6049818, z: 0.9815473}
+  m_Center: {x: 0.014755189, y: 0.26859283, z: -0.0004968643}
 --- !u!114 &3568939161248312701
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -286,15 +286,42 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interactableType:
-    rid: 7799672297560997891
+    rid: 7799672297560997893
   _sceneContext: {fileID: 0}
   references:
     version: 2
     RefIds:
-    - rid: 7799672297560997891
+    - rid: 7799672297560997893
       type: {class: MiningObject, ns: HCC.Interactable, asm: Assembly-CSharp}
       data:
-        _mineData: {fileID: 11400000, guid: 013abb1b023796e48880cfe1b4b34bb9, type: 2}
+        _mineData: {fileID: 11400000, guid: 7d1bb9ecb3f1bdf41a4acffc4456e4f7, type: 2}
+--- !u!54 &7330973636416043185
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 580224869951649579}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &580224869951649583
 GameObject:
   m_ObjectHideFlags: 0

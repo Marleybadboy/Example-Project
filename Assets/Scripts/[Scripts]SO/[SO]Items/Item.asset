@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _identifier:
     _itemIdentyfication: Axe
-  _itemIcon: {fileID: 0}
-  _itemPrefabAddress: 
+  _itemIcon: {fileID: 21300000, guid: 556def944fd02f54c98ac89a1fd817a7, type: 3}
+  _itemPrefab: {fileID: 1902818216466998726, guid: 257cdd4de43d2864bb9b04126eeeb1ea,
+    type: 3}
   _identyfierCreator:
     _newIdentifier: 
     _identifier:

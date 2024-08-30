@@ -1262,6 +1262,11 @@ PrefabInstance:
       objectReference: {fileID: 2146396031552906453}
     - target: {fileID: 8534512147096011711, guid: f4af5736da402904b9a312b1eab44785,
         type: 3}
+      propertyPath: _dataParam._craftingRecipes.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8534512147096011711, guid: f4af5736da402904b9a312b1eab44785,
+        type: 3}
       propertyPath: _dataParam._craftingSlots.Array.data[0]
       value: 
       objectReference: {fileID: 7736360645295038461}
@@ -1270,6 +1275,24 @@ PrefabInstance:
       propertyPath: _dataParam._craftingSlots.Array.data[1]
       value: 
       objectReference: {fileID: 8763560574244872189}
+    - target: {fileID: 8534512147096011711, guid: f4af5736da402904b9a312b1eab44785,
+        type: 3}
+      propertyPath: _dataParam._craftingRecipes.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: c33990df0bfff6249ae4446ee5977b68,
+        type: 2}
+    - target: {fileID: 8534512147096011711, guid: f4af5736da402904b9a312b1eab44785,
+        type: 3}
+      propertyPath: _dataParam._craftingRecipes.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 31d25abb70f9728458e0dea788a25bea,
+        type: 2}
+    - target: {fileID: 8534512147096011711, guid: f4af5736da402904b9a312b1eab44785,
+        type: 3}
+      propertyPath: _dataParam._craftingRecipes.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: 794f419ccfd2b714b9789f9cfe7388d6,
+        type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 2923522101441034237, guid: f4af5736da402904b9a312b1eab44785, type: 3}

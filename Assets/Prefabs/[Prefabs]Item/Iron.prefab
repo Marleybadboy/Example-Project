@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &271762034486158017
+--- !u!1 &718900486467782533
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,31 +8,31 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6314587180728745980}
+  - component: {fileID: 2064660398662331616}
   m_Layer: 0
-  m_Name: Stone_01
+  m_Name: Iron
   m_TagString: Collactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 80
   m_IsActive: 1
---- !u!4 &6314587180728745980
+--- !u!4 &2064660398662331616
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 271762034486158017}
+  m_GameObject: {fileID: 718900486467782533}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 39.683113, y: 3.7143633, z: 35.773174}
+  m_LocalPosition: {x: 38.17287, y: 3.719, z: 36.547}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 125538631991250860}
+  - {fileID: 7413549021024581349}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5460690315344392178
+--- !u!1 &2943156243453966933
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -40,49 +40,49 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 125538631991250860}
-  - component: {fileID: 8361966168533070241}
-  - component: {fileID: 5401238439371881315}
-  - component: {fileID: 8363087696049828522}
-  - component: {fileID: 6198942542334132710}
-  - component: {fileID: 6700695890850448795}
+  - component: {fileID: 7413549021024581349}
+  - component: {fileID: 4189488559652798950}
+  - component: {fileID: 1946124288135328353}
+  - component: {fileID: 7229615702695244815}
+  - component: {fileID: 3352058270884402648}
+  - component: {fileID: 686247719263788914}
   m_Layer: 0
-  m_Name: beech_forest_stones_01_12_LOD0
+  m_Name: beech_forest_stones_01_14_LOD0
   m_TagString: Collactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 81
   m_IsActive: 1
---- !u!4 &125538631991250860
+--- !u!4 &7413549021024581349
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5460690315344392178}
+  m_GameObject: {fileID: 2943156243453966933}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 6314587180728745980}
+  m_Father: {fileID: 2064660398662331616}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &8361966168533070241
+--- !u!33 &4189488559652798950
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5460690315344392178}
-  m_Mesh: {fileID: 4300000, guid: 29c22f234f1f7694dbfbcbfcc7bfc8be, type: 3}
---- !u!23 &5401238439371881315
+  m_GameObject: {fileID: 2943156243453966933}
+  m_Mesh: {fileID: 4300000, guid: 4f3e969432bf95242a4f07518d6c9c4e, type: 3}
+--- !u!23 &1946124288135328353
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5460690315344392178}
+  m_GameObject: {fileID: 2943156243453966933}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -118,13 +118,13 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8363087696049828522
+--- !u!65 &7229615702695244815
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5460690315344392178}
+  m_GameObject: {fileID: 2943156243453966933}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -137,39 +137,17 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.14136805, y: 0.06553936, z: 0.15809962}
-  m_Center: {x: -0.006570913, y: 0.003995562, z: -0.0037454478}
---- !u!114 &6198942542334132710
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5460690315344392178}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactableType:
-    rid: 7799672297560997892
-  _sceneContext: {fileID: 0}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7799672297560997892
-      type: {class: Collactable, ns: , asm: Assembly-CSharp}
-      data:
-        _itemToAdd: {fileID: 11400000, guid: 1b90a87ab0c64af48946cce237cc003f, type: 2}
---- !u!54 &6700695890850448795
+  m_Size: {x: 0.29901126, y: 0.1413801, z: 0.22617}
+  m_Center: {x: 0.0020644516, y: 0.014484482, z: 0.018878054}
+--- !u!54 &3352058270884402648
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5460690315344392178}
+  m_GameObject: {fileID: 2943156243453966933}
   serializedVersion: 4
-  m_Mass: 20
+  m_Mass: 40
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -188,3 +166,25 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &686247719263788914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2943156243453966933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7268b786f64c29e46bfff3766325afc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactableType:
+    rid: 7799672297560997895
+  _sceneContext: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 7799672297560997895
+      type: {class: Collactable, ns: , asm: Assembly-CSharp}
+      data:
+        _itemToAdd: {fileID: 11400000, guid: a444f21befec5fd43bbad65dd61c53a9, type: 2}

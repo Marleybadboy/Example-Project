@@ -45,10 +45,11 @@ public class UsefullHolder : MonoBehaviour
     }
 
     public void AssignByNumericKey(int index) 
-    { 
-        if(index < _usefullItems.Length) { ChangeState(UsefullState.Empty, index); return; }
+    {
 
-        ChangeState(UsefullState.Item, index - 1);    
+        if(index > _usefullItems.Length) { ChangeState(UsefullState.Empty, index); return; }
+
+        ChangeState(UsefullState.Item, index -1);    
     }
 
     private void DisactiveAll() 
