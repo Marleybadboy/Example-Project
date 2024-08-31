@@ -81,7 +81,7 @@ Każdy obiekty wpięty w system interakcji zawiera ten sam komoponent składają
 * Scene Context - do implementacji DI
 
 <p align="center">
-  <img src="Readme_Files/Readme_Files/Unity_8aruxG3VpW.png" alt="Main Menu" width="500"/>
+  <img src="Readme_Files/Unity_8aruxG3VpW.png" alt="Main Menu" width="500"/>
 </p>
 
 
