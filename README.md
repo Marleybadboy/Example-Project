@@ -95,11 +95,29 @@ System sprawdza czy dodane przedmioty do slotów mogą zostać wytworzone. Dodat
 * Dodwanie róznych przedmiotów do recept
 
 > [!NOTE]
-> W prefabie Crafting_Panel jest możliwości dodania Failure Callback w postaci UnityEvent. Można bez problemowo dodać wywołanie bez codowania
+> W prefabie Crafting_Panel jest możliwości dodania Failure Callback w postaci UnityEvent. Można bez problemowo dodać wywołanie dowolnej metody bez codowania
 
 <p align="center">
   <img src="Readme_Files/Unity_5uFZmDriXD.png" alt="Main Menu" width="500"/>
 </p>
+
+#### UI Ekwipunku
+
+Ekwipunek składa się z dwóch części 
+1. Inventory
+2. Crafting
+
+Przedmioty w Inventory korzystają z IDrop IDrag. Przeciągamy przedmioty do slotów i klikamy przecisk "Craft". Posiada on animacje opartą o DOTween. Po czasie otrzymujemy informacje czy craftowanie jest udane.
+
+> [!IMPORTANT]
+> Aby zmienić prawdopodobieństwo uzyskania przedmiotu należy ja ustawić w SO recepty!
+> Baza danych znajduje się w folderze 'Assets/DataBase/[DataBase]Recipes/'
+> Jest to wartość %
+
+<p align="center">
+  <img src="Readme_Files/NVIDIA_Share_SbbgIkOHj7.png" alt="Main Menu" width="500"/>
+</p>
+
 
 
 ### Notyfikacje
