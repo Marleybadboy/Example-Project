@@ -80,6 +80,10 @@ Każdy obiekty wpięty w system interakcji zawiera ten sam komoponent składają
 * Data - czyli globalne ustawienia obiektu. Ilość uderzeń, jaki przedmiot ma dostarczyć.
 * Scene Context - do implementacji DI
 
+<p align="center">
+  <img src="Readme_Files/Readme_Files/Unity_8aruxG3VpW.png" alt="Main Menu" width="500"/>
+</p>
+
 
 ### Crafitng
 Crafting został oparty na ScriptableObject każdy przedmiot może zostać utworzony generycznie i no-code. 
