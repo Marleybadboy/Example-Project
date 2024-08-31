@@ -75,6 +75,10 @@ public class InteractableObject : MonoBehaviour
         }
 
 ```
+Każdy obiekty wpięty w system interakcji zawiera ten sam komoponent składający się:
+* IInteractable - czyli sposoby interakcji. Obecnie 2 typy Cuttable i Mining
+* Data - czyli globalne ustawienia obiektu. Ilość uderzeń, jaki przedmiot ma dostarczyć.
+* Scene Context - do implementacji DI
 
 
 ### Crafitng
@@ -98,7 +102,7 @@ Kolejnym elementem są notyfikacje pojawiające się prawym górnym ekranie info
 * Powodzenie/Niepowodzenie craftingu
 * Detekcja
 
-Wywołanie notyfikacji zostało przypisane do Eventu statyczne na potrzeba wywołania w każdym momencie. 
+Wywołanie notyfikacji zostało przypisane do Eventu statyczne na potrzeby wywołania w każdym momencie. 
 
 
 
