@@ -511,7 +511,7 @@ MonoBehaviour:
   _holdPoint: {fileID: 2899766903663793373}
   _referenceNumeric: {fileID: 6511674795299028382, guid: 4419d82f33d36e848b3ed5af4c8da37e,
     type: 3}
-  _distanceFinder: 5
+  _distanceFinder: 1.5
 --- !u!1001 &3427851640154498553
 PrefabInstance:
   m_ObjectHideFlags: 0

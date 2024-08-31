@@ -10,6 +10,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using Zenject;
+using static UnityEngine.Rendering.DebugUI;
 
 namespace HCC.Player
 {
@@ -176,10 +177,33 @@ namespace HCC.Player
             if (finder.Hit.collider.CompareTag("Collactable")) 
             {
                 _interactable = finder.Hit.collider.GetComponent<InteractableObject>();
-
+                
                 if (_interactable == null) return;
 
+                AcitvieOutline(true);
+
+                return;
             }
+
+            AcitvieOutline(false);
+
+            _interactable = null;
+        }
+
+        private void AcitvieOutline(bool value) 
+        { 
+            if(_interactable == null) return;
+
+            if(!_interactable.TryGetComponent(out Outline outline)) return; 
+
+            if(value) 
+            {
+                outline.OutlineMode = Outline.Mode.OutlineVisible;
+
+                return;
+            }
+
+            outline.OutlineMode = Outline.Mode.OutlineHidden;
 
 
         }

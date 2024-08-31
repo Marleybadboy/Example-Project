@@ -49,7 +49,7 @@ namespace HCC.Structs.Jobs
             Ray ray = Camera.main.ViewportPointToRay(_rayOrign);
 
 
-            _commands[0] = new RaycastCommand(ray.origin, ray.direction, QueryParameters.Default);
+            _commands[0] = new RaycastCommand(ray.origin, ray.direction, QueryParameters.Default,_distance);
 
 
             JobHandle handle = RaycastCommand.ScheduleBatch(_commands, _hits, 1, default(JobHandle));

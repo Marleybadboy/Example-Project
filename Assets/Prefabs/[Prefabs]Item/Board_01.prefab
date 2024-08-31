@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8617618080167342132}
   - component: {fileID: 1177202138988612511}
   - component: {fileID: 5180890359448065890}
-  - component: {fileID: 4456221740496236315}
+  - component: {fileID: 5699666050995944522}
   m_Layer: 0
   m_Name: Board_01
   m_TagString: Collactable
@@ -157,7 +157,7 @@ MonoBehaviour:
       type: {class: Collactable, ns: , asm: Assembly-CSharp}
       data:
         _itemToAdd: {fileID: 11400000, guid: 15181e7f9a5350542b9f21ab5b526d8d, type: 2}
---- !u!114 &4456221740496236315
+--- !u!114 &5699666050995944522
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -166,8 +166,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 926698280079647892}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbf3575480402db40813e763382412fb, type: 3}
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: 20
-  eraseRenderer: 0
+  outlineMode: 2
+  outlineColor: {r: 1, g: 0.907134, b: 0, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []

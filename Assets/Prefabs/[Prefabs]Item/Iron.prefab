@@ -46,6 +46,7 @@ GameObject:
   - component: {fileID: 7229615702695244815}
   - component: {fileID: 3352058270884402648}
   - component: {fileID: 686247719263788914}
+  - component: {fileID: 2062178978380178502}
   m_Layer: 0
   m_Name: beech_forest_stones_01_14_LOD0
   m_TagString: Collactable
@@ -188,3 +189,21 @@ MonoBehaviour:
       type: {class: Collactable, ns: , asm: Assembly-CSharp}
       data:
         _itemToAdd: {fileID: 11400000, guid: a444f21befec5fd43bbad65dd61c53a9, type: 2}
+--- !u!114 &2062178978380178502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2943156243453966933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 2
+  outlineColor: {r: 1, g: 0.907134, b: 0, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
