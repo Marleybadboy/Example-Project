@@ -87,6 +87,20 @@ Każdy obiekty wpięty w system interakcji zawiera ten sam komoponent składają
   <img src="Readme_Files/Unity_8aruxG3VpW.png" alt="Main Menu" width="500"/>
 </p>
 
+### Przedmioty
+Informacje o przedmiocie jest przetrzymywane w ScriptableObject, który tworzymy tak samo jak jak obiekty w projekcie.
+Elementy jak musimy dopasować to:
+1. Indentyfikator przedmiotu
+2. Prefab przedmiotu
+3. Ikona
+
+#### Identyfikatory
+Wyszukiwanie przedmiotów jest oparte o indywidualne identyfikatory które znajdują w `Item SO`.
+Nowe identyfikatory możemy tworzyć z poziomu edytora w inspectorze dołączonego do każdego SO typu `Item`
+
+<p align="center">
+  <img src="Readme_Files/Unity_X1fGn48QKi.png" alt="Main Menu" width="500"/>
+</p>
 
 ### Crafitng
 Crafting został oparty na ScriptableObject każdy przedmiot może zostać utworzony generycznie i no-code. 
@@ -98,7 +112,7 @@ System sprawdza czy dodane przedmioty do slotów mogą zostać wytworzone. Dodat
 > W prefabie Crafting_Panel jest możliwości dodania Failure Callback w postaci UnityEvent. Można bez problemowo dodać wywołanie dowolnej metody bez codowania
 
 <p align="center">
-  <img src="Readme_Files/Unity_5uFZmDriXD.png" alt="Main Menu" width="500"/>
+  <img src="Readme_Files/Unity_X1fGn48QKi.png" alt="Main Menu" width="500"/>
 </p>
 
 #### UI Ekwipunku
@@ -111,7 +125,7 @@ Przedmioty w Inventory korzystają z IDrop IDrag. Przeciągamy przedmioty do slo
 
 > [!IMPORTANT]
 > Aby zmienić prawdopodobieństwo uzyskania przedmiotu należy ja ustawić w SO recepty!
-> Baza danych znajduje się w folderze 'Assets/DataBase/[DataBase]Recipes/'
+> Baza danych znajduje się w folderze `Assets/DataBase/[DataBase]Recipes/`
 > Jest to wartość %
 
 <p align="center">
