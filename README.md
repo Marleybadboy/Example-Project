@@ -93,7 +93,7 @@ System sprawdza czy dodane przedmioty do slotów mogą zostać wytworzone. Dodat
 
 ### Notyfikacje
 Kolejnym elementem są notyfikacje pojawiające się prawym górnym ekranie informującym o stanie gracza. Są zdarzenia takiej jak:
-* Zebranie przedmioty z ziemi
+* Podniesienie przedmiotu z ziemi
 * Wydobycie przedmiotu
 * Powodzenie/Niepowodzenie craftingu
 * Detekcja
