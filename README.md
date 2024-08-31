@@ -9,7 +9,10 @@ Example Project to prosta gra o zbieraniu zasobów i craftowaniu przedmiotów. G
 3. ESC - Zamknięcie Ekwipunku
 4. R - Usuwanie przedmiotu z ekwipunku, tylo kiedy kursor znajduje sie nad ikoną przedmiotu
 5. LPM - Akcja czyli użycie przedmiotu lub/gdy postać ma wole rece podnosi przedmiot
-6. Klawisze Numeryczne 1 - Siekiera 2 - Kilof 3 - chowanie przedmiotu
+6. Klawisze Numeryczne
+ * 1 - Siekiera
+ * 2 - Kilof
+ * 3 - chowanie przedmiotu
 
 ### Klasa State
 Klasa State jest klasą abstrakcyjną, która definiuje podstawowy interfejs dla różnych stanów gry. Jest to część wzorca stanowego, który umożliwia zarządzanie różnymi trybami gry (takimi jak tryb inwentarza, tryb domyślny itp.).
